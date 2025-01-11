@@ -1,0 +1,122 @@
+Variable Name,Variable Location & Description
+FILEREIN,Header - Line D - EIN
+FILERNAME1,Header - Line C - Name of Charity Line 1
+FILERNAME2,Header - Line C - Name of Charity Line 2
+TAXYEAR,Header - Top Right Corner - Tax Year of Filing
+TAXPERBEGIN,Header - Line A - Beginning of Tax Period
+TAXPEREND,Header - Line A - End of Tax Period
+URL,URL pointing to underlying xml document hosted in datalake
+ADDRESCHANGE,Header Part B - Address Change Box
+INITIARETURN,Header Part B - Initial Return Box
+FINALRRETURN,Header Part B - Final Return Box
+AMENDERETURN,Header Part B - Amended Return Box
+SPECCONDDESC,Header Part B - Special Condition Description
+DBANBNLINE11,Header Part C Row 2 - Doing Business As Line 1
+DBANBNLINE22,Header Part C Row 2 - Doing Business As Line 2
+INCARENM,In Care of Name
+FILERNAMECTRL,Charity Name Control Text
+FILERUS1,Header Part C Row 3a - Charity US Address Street Line 1
+FILERUS2,Header Part C Row 3b - Charity US Address Street Line 2
+FILERUSCITY,Header Part C Row 3c - Charity US Address City
+FILERUSSTATE,Header Part C Row 3c - Charity US Address State
+FILERUSZIP,Header Part C Row 3c - Charity Us Address Zip Code
+FILERFOR1,Header Part C Row 3a - Charity Foreign Address Street Line 1
+FILERFOR2,Header Part C Row 3b - Charity Foreign Address Street Line 2
+FILERFORCITY,Header Part C Row 3c - Charity Foreign Address City
+FILERFORSTATE,Header Part C Row 3c - Charity Foreign Address State
+FILERFORPOST,Header Part C Row 3c - Charity Foreign Address Zip Code or Postal
+FILERFORCTRY,Header Part C Row 3c - Charity Foreign Address Country
+ORGANIZATION,Header Part I Type of 501 c
+ORGANIZATION3,Header Part I Type of 501c3 Checkbox
+ORGANIZATION1,Header Part I Type of 501 1 Checkbox
+ORGANIZATION7,Header Part I Type of 4947a Checkbox
+WEBSITSITEIT,Header Part I Type of 527 Checkbox
+FORMATIONORM,Header Part J Website
+NBVOMEGOBOOD,Header Part L Year of Formation
+NBREVOTIMEMB,Part 1 Line 3 - Number of Voting Members
+TOTAEMPLCNTN,Part 1 Line 5 - Individuals Employed In Calendar year
+TOTANBRVVOLU,Part 1 Line 6 - Volunteers
+TOTREVCURYEA,Part 1 Line 12 Col B - Total Revenue Current Year
+GRSIAMCYY,Part 1 Line 13 Col B - Grants Paid Current Year
+BEPATOMECUYE,Part 1 Line 14 Col B - Benefits Paid To Members Current Year
+TOTEXPCURYEA,Part 1 Line 18 Col B - Total Expenses Current Year
+CYYRRELEEXXP,Part 1 Line 19 Col B - Revenue Less Expenses Current Year
+TOASEOOYY,Part 1 Line 20 Col B - Total Assets End of Year
+TOLIEOOYY,Part 1 Line 21 Col B - Total Liabilities End of Year
+NAFBEOY,Part 1 Line 22 Col B - Net Assets or Fund Balances End of Year
+GRANTOORORGA,Part 4 Line 25 Grants More Than 5k to Orgs
+DONOADVIFUND,Part 4 Line 6 Maintain Donor Advised Funds
+EXCEBENETRAN,Part 4 Line 25a Excess Benefit Transactions
+PRIEXCBENTRA,Part 4 Line 25b Excess Benefit Transactions Prior Year
+LOTOOFDQQPP,Part 4 Line 26 Receivables Or Payables to Officers
+BSNRLTWITORG,Part 4 Line 28a Business Transactions w Current or Former Officer
+BSRLTHFAMEEM,Part 4 Line 28b Business Transactions w Family Member of Officer
+OFENWIBSRLLT,Part 4 Line 28c Business Transactions w 35% Controlled Entity
+MATEDIVEMISU,Part 6 Line 5 - Diversion of Assets
+MINUGOVEBODY,Part 6 Line 8 - Document Meetings by Governing Body
+FOPRTOGOBOOD,Part 6 Line 11a - Copy of Form 990 To Governing Body
+CONFINTEPOLI,Part 6 Line 12a - Written Conflict of Interest Policy
+WHISTLPOLICY,Part 6 Line 13 - Whistleblower Policy
+DOCURETEPOLI,Part 6 Line 14 - Document Retention Destruction Policy
+COPRCEEOO,Part 6 Line 15a - Independent Compensation Review
+FEDERACAMPAI,Part 8 Line 1a Federated Campaigns
+MEMBERDUESUE,Part 8 Line 1b Membership Dues
+FUNDRAEVENTS,Part 8 Line 1c Fundraising Events
+RELATEORGANI,Part 8 Line 1d Related Organizations
+GOVERNGRANTS,Part 8 Line 1e Government Grants
+ALLOOTHECONT,Part 8 Line 1f All other Contributions
+NONCASCONTRI,Part 8 Line 1g Non cash contributions
+TOTACASHCONT,Part 8 Line 1h Total Contributions
+TOTPROSERREV,Part 8 Line 2g Total Programs Services
+ININTORECOOL,Part 8 Line 3 Col A Other Investment Income Total
+IFIBPTRCOLUM,Part 8 Line 3 Col A Other Investment Income Related Or Exempt
+CNTRPRFUNEVE,Part 8 Line 4 Col A Investment From Tax Exempt Bond Proceeds
+GROINCFUNEVE,Part 8 Line 8a1 Other Fundraising Event Revenue Gross
+FUNDDIREEXPE,Part 8 Line 8b Other Fundraising Event Less Direct Expenses
+NIFFETRCOLUM,Part 8 Line 8c Fundraising Events Net Income or Loss
+TORETORECOOL,Part 8 Line 12 Col A Total Revenue
+GRAALLPAITOT,Part 9 Line 1 - Col A - Grants To Domestic Orgs and Govts
+GRATODDOMTOT,Part 9 Line 2 - Col A - Grants to Individuals - Total
+SPECASSITOTA,Part 9 Line 2 - Col B - Grants to Individuals - Programs
+FOREGRANTOTA,Part 9 Line 3 - Col A - Grants to Foreign Orgs and Govts & Individuals
+BENTOMMEMTOT,Part 9 Line 4 - Col A - Benefits Paid To Members Total
+COCUOFDITOOT,Part 9 Line 5 - Col A - Compensation of Officers Total
+OTHSALWAGTOT,Part 9 Line 7 - Col A - Other Salaries and Wages - Total
+PENPLACONTOT,Part 9 Line 8 - Col A - Pension Plans
+OTHEMPBENTOT,Part 9 Line 9 - Col A - Other Employee Benefits
+PAYRTAXETOTA,Part 9 Line 10 - Col A - Payroll Taxes Total
+FEFOSEMATOOT,Part 9 Line 11a - Col A - Fees Management Total
+LEGAFEESTOTA,Part 9 Line 11b - Col A - Legal Fees Total
+ACCOFEESTOTA,Part 9 Line 11c - Col A - Accounting Fees Total
+FEFOSELOTOOT,Part 9 Line 11d - Col A - Fees Lobbying Total
+FEFOSEPRFUTO,Part 9 Line 11e - Col A - Fees Professional Fundraising Fees
+FFSIMFTOTAL,Part 9 Line 11f - Col A - Fees Investment Mgmt
+FEFOSEOTTOOT,Part 9 Line 11g - Col A - Fees Other Total
+ADVERTTOTALO,Part 9 Line 12 - Col A - Advertising & Promotion Total
+OFFIEXPETOTA,Part 9 Line 13 - Col A - Office Expenses Total
+INFOTECHTOTA,Part 9 Line 11a - Col A - Fees Management Total
+OCCUPATOTALO,Part 9 Line 16 - Col A - Occupancy Total
+TRAVELTOTALO,Part 9 Line 17 - Col A - Travel Total
+CONCONMEETOT,Part 9 Line 19 - Col A - Conference & Meetings
+INTERETOTALO,Part 9 Line 20 - Col A - Interest Total
+PAYMTOAFAFFI,Part 9 Line 21 - Col A - Payments to Affiliates
+DEPRDEPLTOTA,Part 9 Line 22 - Col A - Depreciation Total
+TOTFUNEXPTOT,Part 9 Line 25 - Col A - Functional Expenses Total
+PROGSERVEXPE,Part 9 Line 25 - Col B - Functional Expenses Program Services
+MANAGENEEXPE,Part 9 Line 25 - Col C - Functional Expenses Management
+FUNDRAEXPENS,Part 9 Line 25 - Col D - Functional Expenses Fundraising
+JOINTCCOSTSO,Part 9 Line 26 Joint Cost Allocation Check Box
+AGGAMOJOICOS,Part 9 Line 26 Col A - Joint Cost Allocation Total
+JOCORPINPRSE,Part 9 Line 26 Col B - Joint Cost Allocation Program Services
+TOJOCOMAANGE,Part 9 Line 26 Col C - Joint Cost Allocation Management
+TOTJOICOSFUN,Part 9 Line 26 Col D - Joint Cost Allocation Fundraising
+CNIBEOY,Part 10 Line 01 Col B - Cash Non Bearing Interest End of Year
+STCIEOY,Part 10 Line 02 Col B - Savings & Temporary Cash Investments
+TOASEOOYY,Part 10 Line 16 Col B - Total Assets End of Year
+GRPAEOOYY,Part 10 Line 18 Col B - Grants Payable Accrued Expenses End of Year
+TOLIEOOYY,Part 10 Line 26 Col B - Total Liabilities End of Year
+UNNEASEOOYY,Part 10 Line 27 Col B - Unrestricted Net Assets End of Year
+TRNAEOY,Part 10 Line 28 Col B - Temporary Restricted Net Assets End of Year
+PRNAEOY,Part 10 Line 29 Col B - Permanently Restricted Net Assets End of Year
+TNAFBEOY,Part 10 Line 33 Col B - Total Net Assets or Fund Balances End of Year
+TLNAEOY,Part 10 Line 34 Col B - Total Liabilities Net Fund Balances End of Year

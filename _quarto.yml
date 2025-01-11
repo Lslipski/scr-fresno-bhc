@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Fresno Building Healthy Communities"
+  description: "Strategic Corporate Research"
+  sidebar: 
+    style: "floating"
+    contents: 
+      - text: "1. Introduction"
+        href: introduction.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.scss
+    toc: true
+    
+execute: 
+  echo: false
+  output: false
+  warning: false
+  
+bibliography: references.bibtex

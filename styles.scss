@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+// Colors
+$light-green: #D1D9CE;
+
+
+
+/*-- scss:rules --*/
+.quote-attribution {
+  text-align: center;
+}
+
+
+
+/*-- scss:short codes and buttons --*/
+#download-btn {
+     font-size: xx-small;
+     padding: 0.2rem 0.3rem !important;
+   }
+
+#down-btn {
+ margin-right: 2px;
+ margin-left: 2px;
+}
+
+a:has(#download-btn) {
+ text-decoration: none !important;
+}
