@@ -86,13 +86,21 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
-<script src="site_libs/react-17.0.0/react.min.js"></script>
-<script src="site_libs/react-17.0.0/react-dom.min.js"></script>
-<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
-<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/dt-ext-buttons-1.13.6/css/buttons.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-buttons-1.13.6/js/dataTables.buttons.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.html5.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.colVis.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.scss">
@@ -151,9 +159,6 @@ div.csl-indent {
   <li><a href="#basic-information" id="toc-basic-information" class="nav-link active" data-scroll-target="#basic-information">Basic Information</a>
   <ul class="collapse">
   <li><a href="#community-hospitals-of-central-california-chcc" id="toc-community-hospitals-of-central-california-chcc" class="nav-link" data-scroll-target="#community-hospitals-of-central-california-chcc">Community Hospitals of Central California (CHCC)</a></li>
-  <li><a href="#fresno-community-hospital-and-medical-center-fchmc" id="toc-fresno-community-hospital-and-medical-center-fchmc" class="nav-link" data-scroll-target="#fresno-community-hospital-and-medical-center-fchmc">Fresno Community Hospital and Medical Center (FCHMC)</a></li>
-  <li><a href="#community-health-system" id="toc-community-health-system" class="nav-link" data-scroll-target="#community-health-system">Community Health System</a></li>
-  <li><a href="#board-of-trustees-for-chcc-and-fchmc" id="toc-board-of-trustees-for-chcc-and-fchmc" class="nav-link" data-scroll-target="#board-of-trustees-for-chcc-and-fchmc">Board of Trustees for CHCC and FCHMC</a></li>
   </ul></li>
   <li><a href="#company-history" id="toc-company-history" class="nav-link" data-scroll-target="#company-history">Company History</a></li>
   <li><a href="#strategy" id="toc-strategy" class="nav-link" data-scroll-target="#strategy">Strategy</a></li>
@@ -222,468 +227,23 @@ div.csl-indent {
 <p>Below is basic information pulled from <span class="citation" data-cites="giving_tuesday_data_commons_990">(<a href="#ref-giving_tuesday_data_commons_990" role="doc-biblioref"><span>“Giving Tuesday Data Commons 990 Datasets API”</span> 2025</a>)</span>. For all variable definitions see <a href="#sec-form-990-dd" class="quarto-xref">Section&nbsp;4.1</a>.</p>
 <section id="condensed-results" class="level5">
 <h5 class="anchored" data-anchor-id="condensed-results">Condensed Results</h5>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-66cd519da7b9cf6b42e1" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-66cd519da7b9cf6b42e1">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12"],[2778800,2504926,2092831,1887763,20987,1287731,1721767,137863,275199,427225,8078,6532],["2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010"],["1205","1205","1074","983","680","644","588","499","496","496","441","445"],["COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","Community Medical Centers Inc"],["7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 Murray Drive7210 Murray Drive","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVE","7210 Murray Drive","7210 Murray Drive"],["STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","StocktonStockton","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTON","Stockton","Stockton"],["CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CA","CA","CA"],["9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095201","9521095201","95210","95210","95210"],["1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978"],["26330256","30322775","14588667","12201131","10638557","10492479","10095414","9327157","7559739","6629955","7112984","7128088"],["876174","604639","696685","857423","789897","901759","812552","1380186","1055414","615077","659546",null],["29189046","24731584","20248973","17598573","15053094","13339882","8417959","8499738","7328043","3642432","5746808","4972337"],["69130","60486","109996","71992","43875","16786","10761","10412","16496","22377","23688","102060"],["315942","339837","254576","309266","115924","265054","65941","105946","100317","124185","130300",null],["30470","203668","92335","60645","103324","81144","110119","247853","330286","38887",null,null],["11","9","10","10","14","11","8","11","9","9","10","10"],["6163252","5749428","5087489","4409743","3989761","1472207","1442251","1504340","1397866","1372832","1952044",null],["3353250","2633406","2067499","1787088","1126134","2614124","2104188","2020802","1416967","1925611",null,null],["X","X","X","X","X","X","X","X","X","X","X","X"],["10838041","10295778","7930310","6489829","5849419","5401805","4882640","3003447","1915974","2936226","2518762","0"],["59639691","49848096","43341544","37807780","33759314","30772509","27557995","24219565","21724492","21080495","19480068","0"],["4443589","3739228","3225036","2886033","2315842","2210147","1997057","1693007","1510877","1493603","1507017","0"],["524258","564405","245217","53494","29712","19598","279015","227370","208980","221322",null,null],["81167222","70351395","63410316","56247029","46956845","43784921","44202707","37411699","32574134","35731374","34609916","31348393"],["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>id<\/th>\n      <th>tax_year<\/th>\n      <th>num_employees<\/th>\n      <th>company_name<\/th>\n      <th>address<\/th>\n      <th>city<\/th>\n      <th>state<\/th>\n      <th>zip<\/th>\n      <th>year_formed<\/th>\n      <th>gov_grants<\/th>\n      <th>mgmt_fees<\/th>\n      <th>mgmt_expenses<\/th>\n      <th>invest_income<\/th>\n      <th>interest<\/th>\n      <th>legal_fees<\/th>\n      <th>num_voting_members<\/th>\n      <th>occupancy<\/th>\n      <th>office_expenses<\/th>\n      <th>status_501c3<\/th>\n      <th>employee_benefits<\/th>\n      <th>salaries<\/th>\n      <th>payroll_taxes<\/th>\n      <th>pension_plans<\/th>\n      <th>program_expenses<\/th>\n      <th>liabilities<\/th>\n      <th>net_assets<\/th>\n      <th>revenue<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"paging":true,"searching":true,"fixedColumns":true,"autoWidth":true,"ordering":true,"dom":"ftBlp","buttons":["copy","csv"],"columnDefs":[{"className":"dt-right","targets":1},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"id","targets":1},{"name":"tax_year","targets":2},{"name":"num_employees","targets":3},{"name":"company_name","targets":4},{"name":"address","targets":5},{"name":"city","targets":6},{"name":"state","targets":7},{"name":"zip","targets":8},{"name":"year_formed","targets":9},{"name":"gov_grants","targets":10},{"name":"mgmt_fees","targets":11},{"name":"mgmt_expenses","targets":12},{"name":"invest_income","targets":13},{"name":"interest","targets":14},{"name":"legal_fees","targets":15},{"name":"num_voting_members","targets":16},{"name":"occupancy","targets":17},{"name":"office_expenses","targets":18},{"name":"status_501c3","targets":19},{"name":"employee_benefits","targets":20},{"name":"salaries","targets":21},{"name":"payroll_taxes","targets":22},{"name":"pension_plans","targets":23},{"name":"program_expenses","targets":24},{"name":"liabilities","targets":25},{"name":"net_assets","targets":26},{"name":"revenue","targets":27}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 </section>
 <section id="all-results" class="level5">
 <h5 class="anchored" data-anchor-id="all-results">All Results</h5>
 <div class="cell">
 <div class="cell-output-display">
-<div id="cgbqftkjhh" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#cgbqftkjhh table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#cgbqftkjhh thead, #cgbqftkjhh tbody, #cgbqftkjhh tfoot, #cgbqftkjhh tr, #cgbqftkjhh td, #cgbqftkjhh th {
-  border-style: none;
-}
-
-#cgbqftkjhh p {
-  margin: 0;
-  padding: 0;
-}
-
-#cgbqftkjhh .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-#cgbqftkjhh .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#cgbqftkjhh .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#cgbqftkjhh .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#cgbqftkjhh .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#cgbqftkjhh .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#cgbqftkjhh .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#cgbqftkjhh .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#cgbqftkjhh .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-
-#cgbqftkjhh .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-#cgbqftkjhh .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#cgbqftkjhh .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#cgbqftkjhh .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#cgbqftkjhh .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#cgbqftkjhh .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#cgbqftkjhh .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-#cgbqftkjhh .gt_row_group_first td {
-  border-top-width: 2px;
-}
-
-#cgbqftkjhh .gt_row_group_first th {
-  border-top-width: 2px;
-}
-
-#cgbqftkjhh .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#cgbqftkjhh .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-#cgbqftkjhh .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#cgbqftkjhh .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#cgbqftkjhh .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#cgbqftkjhh .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#cgbqftkjhh .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#cgbqftkjhh .gt_left {
-  text-align: left;
-}
-
-#cgbqftkjhh .gt_center {
-  text-align: center;
-}
-
-#cgbqftkjhh .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#cgbqftkjhh .gt_font_normal {
-  font-weight: normal;
-}
-
-#cgbqftkjhh .gt_font_bold {
-  font-weight: bold;
-}
-
-#cgbqftkjhh .gt_font_italic {
-  font-style: italic;
-}
-
-#cgbqftkjhh .gt_super {
-  font-size: 65%;
-}
-
-#cgbqftkjhh .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-
-#cgbqftkjhh .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#cgbqftkjhh .gt_indent_1 {
-  text-indent: 5px;
-}
-
-#cgbqftkjhh .gt_indent_2 {
-  text-indent: 10px;
-}
-
-#cgbqftkjhh .gt_indent_3 {
-  text-indent: 15px;
-}
-
-#cgbqftkjhh .gt_indent_4 {
-  text-indent: 20px;
-}
-
-#cgbqftkjhh .gt_indent_5 {
-  text-indent: 25px;
-}
-</style>
-<div id="cgbqftkjhh" class="reactable html-widget" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="cgbqftkjhh">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"id":[2778800,2504926,2092831,1887763,20987,1287731,1721767,137863,275199,427225,8078,6532],"TAXYEAR":["2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010"],"MATEDIVEMISU":["0","0","0","0","0","0","0","false","false","false","0","0"],"FFSIMFTOTAL":[null,null,null,null,null,null,null,"0","0","0",null,null],"FUNDRAEVENTS":["6500",null,"22500","38000","19315",null,null,null,null,null,"0","0"],"ININTORECOOL":["69130","60486","109996","71992","43875","16786","10761","10412","16496","22377","23688","102060"],"TOTPROSERREV":["79120274","76056051","71448767","62579070","55344560","53208759","36686281","35195893","29074009","34646481","32597207","28784164"],"ALLOOTHECONT":["2045673","1587563","1033908","1442226","897252","688019","536133","133551","153256","260247","758038","842568"],"INFOTECHTOTA":["876174","604639","696685","857423","789897","901759","812552","1380186","1055414","615077","659546",null],"CONFINTEPOLI":["1","1","1","1","1","1","1","true","true","true","1","1"],"FILERNAME1":["COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","Community Medical Centers Inc"],"PRNAEOY":[null,null,null,null,null,null,null,"0","0","0","0","0"],"WHISTLPOLICY":["1","1","1","1","1","1","1","true","true","true","1","1"],"GRATODDOMTOT":[null,null,null,null,null,null,null,"0","0","0",null,null],"IFIBPTRCOLUM":[null,null,null,null,null,null,null,"0","0","0","0","0"],"FUNDDIREEXPE":["1740",null,"36370","0","0",null,null,null,null,null,null,null],"OFENWIBSRLLT":["0","0","0","0","0","0","0","false","false","false","0","0"],"GROINCFUNEVE":["0",null,"625","6451","2708",null,null,null,null,null,null,null],"FILERNAMECTRL":["COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM"],"OFFIEXPETOTA":["3353250","2633406","2067499","1787088","1126134","2614124","2104188","2020802","1416967","1925611",null,null],"TNAFBEOY":["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],"TOLIEOOYY":["40420634","41887069","27607161","25702730","21339104","17199608","15668537","12953193","10006138","9292955","7207949","7196376"],"FEDERACAMPAI":[null,null,null,null,null,null,null,null,null,null,"0","0"],"BSNRLTWITORG":["0","0","0","0","0","0","0","false","false","false","1","1"],"UNNEASEOOYY":["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9450526","13237483","11103357","10519999"],"GRANTOORORGA":["0","0","0","0","0","0","0","false","false","false","0","0"],"TOASEOOYY":["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],"FEFOSEOTTOOT":["7901599","5689353","5071098","4832109","3989545","4601843","4607896","4412027","4426347","4260342","366181",null],"TAXPEREND":["2022-06-30","2021-06-30","2020-06-30","2019-06-30","2018-06-30","2017-06-30","2016-06-30","2015-06-30","2014-06-30","2013-06-30","2012-06-30","2011-06-30"],"DEPRDEPLTOTA":["3236778","3531898","3345050","2999199","1828674","1715509","1104654","874534","597534","792399","639455",null],"TRAVELTOTALO":["230941","145489","282054","468598","317622","307366","302606","175415","105912","197293","341441",null],"OTHEMPBENTOT":["10838041","10295778","7930310","6489829","5849419","5401805","4882640","3003447","1915974","2936226","2518762","0"],"FEFOSEMATOOT":[null,null,null,null,null,null,null,"0","0","0",null,null],"NAFBEOY":["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],"RELATEORGANI":[null,null,null,null,null,null,null,null,null,null,"0","0"],"TORETORECOOL":["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"],"LOTOOFDQQPP":["0","0","0","0","0","0","0","false","false","false","0","0"],"TRNAEOY":[null,null,null,null,null,null,null,"0","10500","0","0","0"],"PRIEXCBENTRA":["0","0","0","0","0","0","0","false","false","false","0","0"],"TOTFUNEXPTOT":["110356268","95082979","83659289","73891299","62021032","57159803","52620666","45943240","39919977","39424934","40356724","36320730"],"STCIEOY":["15317228","11617556","9889973","3446988","2716026","2726253","4687015","1907162","5064994","3707341","6377313","6170528"],"COPRCEEOO":["1","1","1","1","1","1","1","true","true","true","1","1"],"BSRLTHFAMEEM":["0","0","0","0","0","0","0","false","false","false","0","0"],"OCCUPATOTALO":["6163252","5749428","5087489","4409743","3989761","1472207","1442251","1504340","1397866","1372832","1952044",null],"MINUGOVEBODY":["1","1","1","1","1","1","1","true","true","true","1","1"],"RETURNTYPE":["990","990","990","990","990","990","990","990","990","990","990","990"],"FILEREIN":["942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106"],"INTERETOTALO":["315942","339837","254576","309266","115924","265054","65941","105946","100317","124185","130300",null],"FOREGRANTOTA":[null,null,null,null,null,null,null,"0","0","0",null,null],"DONOADVIFUND":["0","0","0","0","0","0","0","false","false","false","0","0"],"TAXPERBEGIN":["2021-07-01","2020-07-01","2019-07-01","2018-07-01","2017-07-01","2016-07-01","2015-07-01","2014-07-01","2013-07-01","2012-07-01","2011-07-01","2010-07-01"],"CNIBEOY":["628260","375233","397768","96580","67113","40700","333113","86359","9450","9400","10205","9855"],"OTHSALWAGTOT":["59639691","49848096","43341544","37807780","33759314","30772509","27557995","24219565","21724492","21080495","19480068","0"],"FEFOSELOTOOT":[null,null,null,null,null,null,null,"0","0","0",null,null],"PENPLACONTOT":["524258","564405","245217","53494","29712","19598","279015","227370","208980","221322",null,null],"PAYRTAXETOTA":["4443589","3739228","3225036","2886033","2315842","2210147","1997057","1693007","1510877","1493603","1507017","0"],"WEBSITSITEIT":["WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","www.communitymedicalcenters.org","www.communitymedicalcenters.org"],"ADVERTTOTALO":["40307","27374","46516","25175",null,null,null,"0","0","0",null,null],"NIFFETRCOLUM":["-1740",null,"-35745","6451","2708",null,null,"0","0","0",null,null],"FOPRTOGOBOOD":["0","0","0","0","0","0","0","false","false","false","0","1"],"DOCURETEPOLI":["1","1","1","1","1","1","1","true","true","true","1","1"],"FINALRRETURN":[null,null,null,null,null,null,null,null,null,null,null,null],"DBANBNLINE11":[null,null,null,null,null,null,null,null,null,null,null,null],"DBANBNLINE22":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERUS1":["7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 Murray Drive7210 Murray Drive","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVE","7210 Murray Drive","7210 Murray Drive"],"FILERUS2":[null,null,null,null,null,null,null,null,"Suite","Suite",null,null],"FILERUSCITY":["STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","StocktonStockton","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTON","Stockton","Stockton"],"FILERUSSTATE":["CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CA","CA","CA"],"FILERUSZIP":["9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095201","9521095201","95210","95210","95210"],"FILERFOR1":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERFOR2":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERFORCITY":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERFORSTATE":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERFORPOST":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERFORCTRY":[null,null,null,null,null,null,null,null,null,null,null,null],"ORGANIZATION3":["X","X","X","X","X","X","X","X","X","X","X","X"],"FORMATIONORM":["1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978"],"NBVOMEGOBOOD":["11","9","10","10","14","11","8","11","9","9","10","10"],"NBREVOTIMEMB":["11","9","10","10","14","11","8","11","9","9","10","10"],"TOTAEMPLCNTN":["1205","1205","1074","983","680","644","588","499","496","496","441","445"],"TOTANBRVVOLU":["11","10","10","20","20","12","12","12","12","12","10","10"],"TOTREVCURYEA":["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"],"GRSIAMCYY":["0","0","0","0","0","0","0","0","0","0","0","0"],"BEPATOMECUYE":["0","0","0","0","0","0","0","0","0","0","0","0"],"TOTEXPCURYEA":["110356268","95082979","83659289","73891299","62021032","57159803","52620666","45943240","39919977","39424934","40356724","36320730"],"CYYRRELEEXXP":["-2743707","12943896","3509550","2453897","4931027","7243615","-201122","-1276227","-3116477","2134126","583358","538843"],"EXCEBENETRAN":["0","0","0","0","0","0","0","false","false","false","0","0"],"MEMBERDUESUE":[null,null,null,null,null,null,null,null,null,null,"0","0"],"GOVERNGRANTS":["26330256","30322775","14588667","12201131","10638557","10492479","10095414","9327157","7559739","6629955","7112984","7128088"],"NONCASCONTRI":["17533",null,null,"18856",null,null,null,null,null,null,"0","0"],"TOTACASHCONT":["28382429","31910338","15645075","13681357","11555124","11180498","10631547","9460708","7712995","6890202","7871022","7970656"],"CNTRPRFUNEVE":["6500",null,"22500","38000","19315",null,null,null,null,null,"0","0"],"GRAALLPAITOT":[null,null,null,null,null,null,null,"0","0","0",null,null],"SPECASSITOTA":[null,null,null,null,null,null,null,null,null,null,null,null],"BENTOMMEMTOT":[null,null,null,null,null,null,null,"0","0","0",null,null],"COCUOFDITOOT":["1537686","1486033","2767918","3185228","953922","1028990","993396","861915","449203","467921","608836",null],"LEGAFEESTOTA":["30470","203668","92335","60645","103324","81144","110119","247853","330286","38887",null,null],"ACCOFEESTOTA":["286717","110140","94130","74206","86147","105649","142134","331301","601260","31498",null,null],"FEFOSEPRFUTO":[null,null,null,"45697","11093","35000",null,"31803","17800","51128",null,null],"CONCONMEETOT":["246424","173961","176445","157494","96233","108501","240002","246415","156929","150695","137402",null],"PAYMTOAFAFFI":[null,null,null,null,null,null,null,"0","0","0",null,null],"PROGSERVEXPE":["81167222","70351395","63410316","56247029","46956845","43784921","44202707","37411699","32574134","35731374","34609916","31348393"],"MANAGENEEXPE":["29189046","24731584","20248973","17598573","15053094","13339882","8417959","8499738","7328043","3642432","5746808","4972337"],"FUNDRAEXPENS":["0","0","0","45697","11093","35000","0","31803","17800","51128","0","0"],"AGGAMOJOICOS":[null,null,null,null,null,null,null,null,null,null,null,null],"JOCORPINPRSE":[null,null,null,null,null,null,null,null,null,null,null,null],"TLNAEOY":["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],"URL":[null,null,"https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202131379349310693_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202031969349305093_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201901429349301810_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201811359349313471_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201711359349305476_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201631379349301248_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201531349349301978_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201421839349300032_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201301299349300305_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201200899349300710_public.xml"],"ADDRESCHANGE":[null,null,null,null,null,null,null,null,null,null,null,null],"GRPAEOOYY":[null,null,null,null,null,null,null,"0","0","0",null,null],"JOINTCCOSTSO":[null,null,null,null,null,null,null,null,null,null,null,null],"TOTJOICOSFUN":[null,null,null,null,null,null,null,null,null,null,null,null],"TOJOCOMAANGE":[null,null,null,null,null,null,null,null,null,null,null,null],"INITIARETURN":[null,null,null,null,null,null,null,null,null,null,null,null],"FILERNAME2":[null,null,null,null,null,null,null,null,null,null,null,null],"INCARENM":[null,null,null,null,null,null,null,"% ART FEAGLES","% ART FEAGLES","% ART FEAGLES",null,null],"AMENDERETURN":[null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"id","name":"id","type":"numeric","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["2778800","2504926","2092831","1887763","20987","1287731","1721767","137863","275199","427225","8078","6532"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TAXYEAR","name":"TAXYEAR","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"MATEDIVEMISU","name":"MATEDIVEMISU","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FFSIMFTOTAL","name":"FFSIMFTOTAL","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FUNDRAEVENTS","name":"FUNDRAEVENTS","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["6500","NA","22500","38000","19315","NA","NA","NA","NA","NA","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"ININTORECOOL","name":"ININTORECOOL","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["69130","60486","109996","71992","43875","16786","10761","10412","16496","22377","23688","102060"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOTPROSERREV","name":"TOTPROSERREV","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["79120274","76056051","71448767","62579070","55344560","53208759","36686281","35195893","29074009","34646481","32597207","28784164"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"ALLOOTHECONT","name":"ALLOOTHECONT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["2045673","1587563","1033908","1442226","897252","688019","536133","133551","153256","260247","758038","842568"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"INFOTECHTOTA","name":"INFOTECHTOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["876174","604639","696685","857423","789897","901759","812552","1380186","1055414","615077","659546","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"CONFINTEPOLI","name":"CONFINTEPOLI","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1","1","1","1","1","1","1","true","true","true","1","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FILERNAME1","name":"FILERNAME1","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","Community Medical Centers Inc"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"PRNAEOY","name":"PRNAEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"WHISTLPOLICY","name":"WHISTLPOLICY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1","1","1","1","1","1","1","true","true","true","1","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"GRATODDOMTOT","name":"GRATODDOMTOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"IFIBPTRCOLUM","name":"IFIBPTRCOLUM","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FUNDDIREEXPE","name":"FUNDDIREEXPE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1740","NA","36370","0","0","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"OFENWIBSRLLT","name":"OFENWIBSRLLT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"GROINCFUNEVE","name":"GROINCFUNEVE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","NA","625","6451","2708","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FILERNAMECTRL","name":"FILERNAMECTRL","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"OFFIEXPETOTA","name":"OFFIEXPETOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["3353250","2633406","2067499","1787088","1126134","2614124","2104188","2020802","1416967","1925611","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TNAFBEOY","name":"TNAFBEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOLIEOOYY","name":"TOLIEOOYY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["40420634","41887069","27607161","25702730","21339104","17199608","15668537","12953193","10006138","9292955","7207949","7196376"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FEDERACAMPAI","name":"FEDERACAMPAI","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"BSNRLTWITORG","name":"BSNRLTWITORG","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","1","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"UNNEASEOOYY","name":"UNNEASEOOYY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9450526","13237483","11103357","10519999"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"GRANTOORORGA","name":"GRANTOORORGA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"TOASEOOYY","name":"TOASEOOYY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FEFOSEOTTOOT","name":"FEFOSEOTTOOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["7901599","5689353","5071098","4832109","3989545","4601843","4607896","4412027","4426347","4260342","366181","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TAXPEREND","name":"TAXPEREND","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["2022-06-30","2021-06-30","2020-06-30","2019-06-30","2018-06-30","2017-06-30","2016-06-30","2015-06-30","2014-06-30","2013-06-30","2012-06-30","2011-06-30"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"DEPRDEPLTOTA","name":"DEPRDEPLTOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["3236778","3531898","3345050","2999199","1828674","1715509","1104654","874534","597534","792399","639455","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TRAVELTOTALO","name":"TRAVELTOTALO","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["230941","145489","282054","468598","317622","307366","302606","175415","105912","197293","341441","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"OTHEMPBENTOT","name":"OTHEMPBENTOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["10838041","10295778","7930310","6489829","5849419","5401805","4882640","3003447","1915974","2936226","2518762","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FEFOSEMATOOT","name":"FEFOSEMATOOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"NAFBEOY","name":"NAFBEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"RELATEORGANI","name":"RELATEORGANI","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TORETORECOOL","name":"TORETORECOOL","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"LOTOOFDQQPP","name":"LOTOOFDQQPP","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"TRNAEOY","name":"TRNAEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","10500","0","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"PRIEXCBENTRA","name":"PRIEXCBENTRA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"TOTFUNEXPTOT","name":"TOTFUNEXPTOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["110356268","95082979","83659289","73891299","62021032","57159803","52620666","45943240","39919977","39424934","40356724","36320730"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"STCIEOY","name":"STCIEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["15317228","11617556","9889973","3446988","2716026","2726253","4687015","1907162","5064994","3707341","6377313","6170528"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"COPRCEEOO","name":"COPRCEEOO","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1","1","1","1","1","1","1","true","true","true","1","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"BSRLTHFAMEEM","name":"BSRLTHFAMEEM","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"OCCUPATOTALO","name":"OCCUPATOTALO","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["6163252","5749428","5087489","4409743","3989761","1472207","1442251","1504340","1397866","1372832","1952044","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"MINUGOVEBODY","name":"MINUGOVEBODY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1","1","1","1","1","1","1","true","true","true","1","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"RETURNTYPE","name":"RETURNTYPE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["990","990","990","990","990","990","990","990","990","990","990","990"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FILEREIN","name":"FILEREIN","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"INTERETOTALO","name":"INTERETOTALO","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["315942","339837","254576","309266","115924","265054","65941","105946","100317","124185","130300","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FOREGRANTOTA","name":"FOREGRANTOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"DONOADVIFUND","name":"DONOADVIFUND","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"TAXPERBEGIN","name":"TAXPERBEGIN","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["2021-07-01","2020-07-01","2019-07-01","2018-07-01","2017-07-01","2016-07-01","2015-07-01","2014-07-01","2013-07-01","2012-07-01","2011-07-01","2010-07-01"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"CNIBEOY","name":"CNIBEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["628260","375233","397768","96580","67113","40700","333113","86359","9450","9400","10205","9855"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"OTHSALWAGTOT","name":"OTHSALWAGTOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["59639691","49848096","43341544","37807780","33759314","30772509","27557995","24219565","21724492","21080495","19480068","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FEFOSELOTOOT","name":"FEFOSELOTOOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"PENPLACONTOT","name":"PENPLACONTOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["524258","564405","245217","53494","29712","19598","279015","227370","208980","221322","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"PAYRTAXETOTA","name":"PAYRTAXETOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["4443589","3739228","3225036","2886033","2315842","2210147","1997057","1693007","1510877","1493603","1507017","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"WEBSITSITEIT","name":"WEBSITSITEIT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","www.communitymedicalcenters.org","www.communitymedicalcenters.org"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"ADVERTTOTALO","name":"ADVERTTOTALO","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["40307","27374","46516","25175","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"NIFFETRCOLUM","name":"NIFFETRCOLUM","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["-1740","NA","-35745","6451","2708","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FOPRTOGOBOOD","name":"FOPRTOGOBOOD","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"DOCURETEPOLI","name":"DOCURETEPOLI","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1","1","1","1","1","1","1","true","true","true","1","1"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FINALRRETURN","name":"FINALRRETURN","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"DBANBNLINE11","name":"DBANBNLINE11","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"DBANBNLINE22","name":"DBANBNLINE22","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERUS1","name":"FILERUS1","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 Murray Drive7210 Murray Drive","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVE","7210 Murray Drive","7210 Murray Drive"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FILERUS2","name":"FILERUS2","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","Suite","Suite","NA","NA"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FILERUSCITY","name":"FILERUSCITY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","StocktonStockton","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTON","Stockton","Stockton"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FILERUSSTATE","name":"FILERUSSTATE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CA","CA","CA"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FILERUSZIP","name":"FILERUSZIP","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095201","9521095201","95210","95210","95210"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FILERFOR1","name":"FILERFOR1","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERFOR2","name":"FILERFOR2","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERFORCITY","name":"FILERFORCITY","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERFORSTATE","name":"FILERFORSTATE","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERFORPOST","name":"FILERFORPOST","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERFORCTRY","name":"FILERFORCTRY","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"ORGANIZATION3","name":"ORGANIZATION3","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["X","X","X","X","X","X","X","X","X","X","X","X"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"FORMATIONORM","name":"FORMATIONORM","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"NBVOMEGOBOOD","name":"NBVOMEGOBOOD","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["11","9","10","10","14","11","8","11","9","9","10","10"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"NBREVOTIMEMB","name":"NBREVOTIMEMB","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["11","9","10","10","14","11","8","11","9","9","10","10"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOTAEMPLCNTN","name":"TOTAEMPLCNTN","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1205","1205","1074","983","680","644","588","499","496","496","441","445"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOTANBRVVOLU","name":"TOTANBRVVOLU","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["11","10","10","20","20","12","12","12","12","12","10","10"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOTREVCURYEA","name":"TOTREVCURYEA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"GRSIAMCYY","name":"GRSIAMCYY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","0","0","0","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"BEPATOMECUYE","name":"BEPATOMECUYE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","0","0","0","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOTEXPCURYEA","name":"TOTEXPCURYEA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["110356268","95082979","83659289","73891299","62021032","57159803","52620666","45943240","39919977","39424934","40356724","36320730"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"CYYRRELEEXXP","name":"CYYRRELEEXXP","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["-2743707","12943896","3509550","2453897","4931027","7243615","-201122","-1276227","-3116477","2134126","583358","538843"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"EXCEBENETRAN","name":"EXCEBENETRAN","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","0","0","0","0","false","false","false","0","0"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"MEMBERDUESUE","name":"MEMBERDUESUE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"GOVERNGRANTS","name":"GOVERNGRANTS","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["26330256","30322775","14588667","12201131","10638557","10492479","10095414","9327157","7559739","6629955","7112984","7128088"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"NONCASCONTRI","name":"NONCASCONTRI","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["17533","NA","NA","18856","NA","NA","NA","NA","NA","NA","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"TOTACASHCONT","name":"TOTACASHCONT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["28382429","31910338","15645075","13681357","11555124","11180498","10631547","9460708","7712995","6890202","7871022","7970656"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"CNTRPRFUNEVE","name":"CNTRPRFUNEVE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["6500","NA","22500","38000","19315","NA","NA","NA","NA","NA","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"GRAALLPAITOT","name":"GRAALLPAITOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"SPECASSITOTA","name":"SPECASSITOTA","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"BENTOMMEMTOT","name":"BENTOMMEMTOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"COCUOFDITOOT","name":"COCUOFDITOOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["1537686","1486033","2767918","3185228","953922","1028990","993396","861915","449203","467921","608836","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"LEGAFEESTOTA","name":"LEGAFEESTOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["30470","203668","92335","60645","103324","81144","110119","247853","330286","38887","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"ACCOFEESTOTA","name":"ACCOFEESTOTA","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["286717","110140","94130","74206","86147","105649","142134","331301","601260","31498","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FEFOSEPRFUTO","name":"FEFOSEPRFUTO","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","45697","11093","35000","NA","31803","17800","51128","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"CONCONMEETOT","name":"CONCONMEETOT","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["246424","173961","176445","157494","96233","108501","240002","246415","156929","150695","137402","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"PAYMTOAFAFFI","name":"PAYMTOAFAFFI","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"PROGSERVEXPE","name":"PROGSERVEXPE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["81167222","70351395","63410316","56247029","46956845","43784921","44202707","37411699","32574134","35731374","34609916","31348393"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"MANAGENEEXPE","name":"MANAGENEEXPE","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["29189046","24731584","20248973","17598573","15053094","13339882","8417959","8499738","7328043","3642432","5746808","4972337"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"FUNDRAEXPENS","name":"FUNDRAEXPENS","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["0","0","0","45697","11093","35000","0","31803","17800","51128","0","0"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"AGGAMOJOICOS","name":"AGGAMOJOICOS","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"JOCORPINPRSE","name":"JOCORPINPRSE","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"TLNAEOY","name":"TLNAEOY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"URL","name":"URL","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202131379349310693_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202031969349305093_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201901429349301810_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201811359349313471_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201711359349305476_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201631379349301248_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201531349349301978_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201421839349300032_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201301299349300305_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201200899349300710_public.xml"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"ADDRESCHANGE","name":"ADDRESCHANGE","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"GRPAEOOYY","name":"GRPAEOOYY","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","0","0","0","NA","NA"],"html":true,"align":"right","headerStyle":{"font-weight":"normal"}},{"id":"JOINTCCOSTSO","name":"JOINTCCOSTSO","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"TOTJOICOSFUN","name":"TOTJOICOSFUN","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"TOJOCOMAANGE","name":"TOJOCOMAANGE","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"INITIARETURN","name":"INITIARETURN","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"FILERNAME2","name":"FILERNAME2","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}},{"id":"INCARENM","name":"INCARENM","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","% ART FEAGLES","% ART FEAGLES","% ART FEAGLES","NA","NA"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"AMENDERETURN","name":"AMENDERETURN","type":"logical","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\n}","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"html":true,"align":"center","headerStyle":{"font-weight":"normal"}}],"defaultPageSize":10,"showPageSizeOptions":false,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"showSortable":true,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"fontFamily":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"},"headerStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"}},"elementId":"cgbqftkjhh","dataKey":"fdbd911dd8eca50d946c732e40e1df66"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style","tag.attribs.columns.6.style","tag.attribs.columns.7.style","tag.attribs.columns.8.style","tag.attribs.columns.9.style","tag.attribs.columns.10.style","tag.attribs.columns.11.style","tag.attribs.columns.12.style","tag.attribs.columns.13.style","tag.attribs.columns.14.style","tag.attribs.columns.15.style","tag.attribs.columns.16.style","tag.attribs.columns.17.style","tag.attribs.columns.18.style","tag.attribs.columns.19.style","tag.attribs.columns.20.style","tag.attribs.columns.21.style","tag.attribs.columns.22.style","tag.attribs.columns.23.style","tag.attribs.columns.24.style","tag.attribs.columns.25.style","tag.attribs.columns.26.style","tag.attribs.columns.27.style","tag.attribs.columns.28.style","tag.attribs.columns.29.style","tag.attribs.columns.30.style","tag.attribs.columns.31.style","tag.attribs.columns.32.style","tag.attribs.columns.33.style","tag.attribs.columns.34.style","tag.attribs.columns.35.style","tag.attribs.columns.36.style","tag.attribs.columns.37.style","tag.attribs.columns.38.style","tag.attribs.columns.39.style","tag.attribs.columns.40.style","tag.attribs.columns.41.style","tag.attribs.columns.42.style","tag.attribs.columns.43.style","tag.attribs.columns.44.style","tag.attribs.columns.45.style","tag.attribs.columns.46.style","tag.attribs.columns.47.style","tag.attribs.columns.48.style","tag.attribs.columns.49.style","tag.attribs.columns.50.style","tag.attribs.columns.51.style","tag.attribs.columns.52.style","tag.attribs.columns.53.style","tag.attribs.columns.54.style","tag.attribs.columns.55.style","tag.attribs.columns.56.style","tag.attribs.columns.57.style","tag.attribs.columns.58.style","tag.attribs.columns.59.style","tag.attribs.columns.60.style","tag.attribs.columns.61.style","tag.attribs.columns.62.style","tag.attribs.columns.63.style","tag.attribs.columns.64.style","tag.attribs.columns.65.style","tag.attribs.columns.66.style","tag.attribs.columns.67.style","tag.attribs.columns.68.style","tag.attribs.columns.69.style","tag.attribs.columns.70.style","tag.attribs.columns.71.style","tag.attribs.columns.72.style","tag.attribs.columns.73.style","tag.attribs.columns.74.style","tag.attribs.columns.75.style","tag.attribs.columns.76.style","tag.attribs.columns.77.style","tag.attribs.columns.78.style","tag.attribs.columns.79.style","tag.attribs.columns.80.style","tag.attribs.columns.81.style","tag.attribs.columns.82.style","tag.attribs.columns.83.style","tag.attribs.columns.84.style","tag.attribs.columns.85.style","tag.attribs.columns.86.style","tag.attribs.columns.87.style","tag.attribs.columns.88.style","tag.attribs.columns.89.style","tag.attribs.columns.90.style","tag.attribs.columns.91.style","tag.attribs.columns.92.style","tag.attribs.columns.93.style","tag.attribs.columns.94.style","tag.attribs.columns.95.style","tag.attribs.columns.96.style","tag.attribs.columns.97.style","tag.attribs.columns.98.style","tag.attribs.columns.99.style","tag.attribs.columns.100.style","tag.attribs.columns.101.style","tag.attribs.columns.102.style","tag.attribs.columns.103.style","tag.attribs.columns.104.style","tag.attribs.columns.105.style","tag.attribs.columns.106.style","tag.attribs.columns.107.style","tag.attribs.columns.108.style","tag.attribs.columns.109.style","tag.attribs.columns.110.style","tag.attribs.columns.111.style","tag.attribs.columns.112.style","tag.attribs.columns.113.style","tag.attribs.columns.114.style","tag.attribs.columns.115.style","tag.attribs.columns.116.style"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-e474f735df1992b1e272" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e474f735df1992b1e272">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12"],[2778800,2504926,2092831,1887763,20987,1287731,1721767,137863,275199,427225,8078,6532],["2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010"],["286717","110140","94130","74206","86147","105649","142134","331301","601260","31498",null,null],[null,null,null,null,null,null,null,null,null,null,null,null],["40307","27374","46516","25175",null,null,null,"0","0","0",null,null],[null,null,null,null,null,null,null,null,null,null,null,null],["2045673","1587563","1033908","1442226","897252","688019","536133","133551","153256","260247","758038","842568"],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,"0","0","0",null,null],["0","0","0","0","0","0","0","0","0","0","0","0"],["0","0","0","0","0","0","0","false","false","false","1","1"],["0","0","0","0","0","0","0","false","false","false","0","0"],["628260","375233","397768","96580","67113","40700","333113","86359","9450","9400","10205","9855"],["6500",null,"22500","38000","19315",null,null,null,null,null,"0","0"],["1537686","1486033","2767918","3185228","953922","1028990","993396","861915","449203","467921","608836",null],["246424","173961","176445","157494","96233","108501","240002","246415","156929","150695","137402",null],["1","1","1","1","1","1","1","true","true","true","1","1"],["1","1","1","1","1","1","1","true","true","true","1","1"],["-2743707","12943896","3509550","2453897","4931027","7243615","-201122","-1276227","-3116477","2134126","583358","538843"],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],["3236778","3531898","3345050","2999199","1828674","1715509","1104654","874534","597534","792399","639455",null],["1","1","1","1","1","1","1","true","true","true","1","1"],["0","0","0","0","0","0","0","false","false","false","0","0"],["0","0","0","0","0","0","0","false","false","false","0","0"],[null,null,null,null,null,null,null,null,null,null,"0","0"],[null,null,null,null,null,null,null,"0","0","0",null,null],[null,null,null,null,null,null,null,"0","0","0",null,null],["7901599","5689353","5071098","4832109","3989545","4601843","4607896","4412027","4426347","4260342","366181",null],[null,null,null,"45697","11093","35000",null,"31803","17800","51128",null,null],[null,null,null,null,null,null,null,"0","0","0",null,null],["942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106","942437106"],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],["COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","COMMUNITY MEDICAL CENTERS INC","Community Medical Centers Inc","Community Medical Centers Inc"],[null,null,null,null,null,null,null,null,null,null,null,null],["COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM","COMM"],["7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 Murray Drive7210 Murray Drive","7210 MURRAY DRIVE7210 MURRAY DRIVE","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVEPO BOX 779","7210 MURRAY DRIVE","7210 Murray Drive","7210 Murray Drive"],[null,null,null,null,null,null,null,null,"Suite","Suite",null,null],["STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","StocktonStockton","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTONSTOCKTON","STOCKTON","Stockton","Stockton"],["CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CACA","CA","CA","CA"],["9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095210","9521095201","9521095201","95210","95210","95210"],[null,null,null,null,null,null,null,null,null,null,null,null],["0","0","0","0","0","0","0","false","false","false","0","1"],[null,null,null,null,null,null,null,"0","0","0",null,null],["1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978","1978"],["1740",null,"36370","0","0",null,null,null,null,null,null,null],["6500",null,"22500","38000","19315",null,null,null,null,null,"0","0"],["0","0","0","45697","11093","35000","0","31803","17800","51128","0","0"],["26330256","30322775","14588667","12201131","10638557","10492479","10095414","9327157","7559739","6629955","7112984","7128088"],[null,null,null,null,null,null,null,"0","0","0",null,null],["0","0","0","0","0","0","0","false","false","false","0","0"],[null,null,null,null,null,null,null,"0","0","0",null,null],["0",null,"625","6451","2708",null,null,null,null,null,null,null],[null,null,null,null,null,null,null,"0","0","0",null,null],["0","0","0","0","0","0","0","0","0","0","0","0"],[null,null,null,null,null,null,null,"0","0","0","0","0"],[null,null,null,null,null,null,null,"% ART FEAGLES","% ART FEAGLES","% ART FEAGLES",null,null],["876174","604639","696685","857423","789897","901759","812552","1380186","1055414","615077","659546",null],["69130","60486","109996","71992","43875","16786","10761","10412","16496","22377","23688","102060"],[null,null,null,null,null,null,null,null,null,null,null,null],["315942","339837","254576","309266","115924","265054","65941","105946","100317","124185","130300",null],[null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null],["30470","203668","92335","60645","103324","81144","110119","247853","330286","38887",null,null],["0","0","0","0","0","0","0","false","false","false","0","0"],["29189046","24731584","20248973","17598573","15053094","13339882","8417959","8499738","7328043","3642432","5746808","4972337"],["0","0","0","0","0","0","0","false","false","false","0","0"],[null,null,null,null,null,null,null,null,null,null,"0","0"],["1","1","1","1","1","1","1","true","true","true","1","1"],["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],["11","9","10","10","14","11","8","11","9","9","10","10"],["11","9","10","10","14","11","8","11","9","9","10","10"],["-1740",null,"-35745","6451","2708",null,null,"0","0","0",null,null],["17533",null,null,"18856",null,null,null,null,null,null,"0","0"],["6163252","5749428","5087489","4409743","3989761","1472207","1442251","1504340","1397866","1372832","1952044",null],["0","0","0","0","0","0","0","false","false","false","0","0"],["3353250","2633406","2067499","1787088","1126134","2614124","2104188","2020802","1416967","1925611",null,null],["X","X","X","X","X","X","X","X","X","X","X","X"],["10838041","10295778","7930310","6489829","5849419","5401805","4882640","3003447","1915974","2936226","2518762","0"],["59639691","49848096","43341544","37807780","33759314","30772509","27557995","24219565","21724492","21080495","19480068","0"],[null,null,null,null,null,null,null,"0","0","0",null,null],["4443589","3739228","3225036","2886033","2315842","2210147","1997057","1693007","1510877","1493603","1507017","0"],["524258","564405","245217","53494","29712","19598","279015","227370","208980","221322",null,null],["0","0","0","0","0","0","0","false","false","false","0","0"],[null,null,null,null,null,null,null,"0","0","0","0","0"],["81167222","70351395","63410316","56247029","46956845","43784921","44202707","37411699","32574134","35731374","34609916","31348393"],[null,null,null,null,null,null,null,null,null,null,"0","0"],["990","990","990","990","990","990","990","990","990","990","990","990"],[null,null,null,null,null,null,null,null,null,null,null,null],["15317228","11617556","9889973","3446988","2716026","2726253","4687015","1907162","5064994","3707341","6377313","6170528"],["2021-07-01","2020-07-01","2019-07-01","2018-07-01","2017-07-01","2016-07-01","2015-07-01","2014-07-01","2013-07-01","2012-07-01","2011-07-01","2010-07-01"],["2022-06-30","2021-06-30","2020-06-30","2019-06-30","2018-06-30","2017-06-30","2016-06-30","2015-06-30","2014-06-30","2013-06-30","2012-06-30","2011-06-30"],["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9461026","13237483","11103357","10519999"],["76696644","80924319","53700515","48286534","41469011","32398488","23623802","21109580","19467164","22530438","18311306","17716375"],[null,null,null,null,null,null,null,null,null,null,null,null],["40420634","41887069","27607161","25702730","21339104","17199608","15668537","12953193","10006138","9292955","7207949","7196376"],["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"],["28382429","31910338","15645075","13681357","11555124","11180498","10631547","9460708","7712995","6890202","7871022","7970656"],["1205","1205","1074","983","680","644","588","499","496","496","441","445"],["11","10","10","20","20","12","12","12","12","12","10","10"],["110356268","95082979","83659289","73891299","62021032","57159803","52620666","45943240","39919977","39424934","40356724","36320730"],["110356268","95082979","83659289","73891299","62021032","57159803","52620666","45943240","39919977","39424934","40356724","36320730"],[null,null,null,null,null,null,null,null,null,null,null,null],["79120274","76056051","71448767","62579070","55344560","53208759","36686281","35195893","29074009","34646481","32597207","28784164"],["107612561","108026875","87168839","76345196","66952059","64403418","52419544","44667013","36803500","41559060","40940082","36859573"],["230941","145489","282054","468598","317622","307366","302606","175415","105912","197293","341441",null],[null,null,null,null,null,null,null,"0","10500","0","0","0"],["36276010","39037250","26093354","22583804","20129907","15198880","7955265","8156387","9450526","13237483","11103357","10519999"],[null,null,"https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202131379349310693_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202031969349305093_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201901429349301810_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201811359349313471_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201711359349305476_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201631379349301248_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201531349349301978_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201421839349300032_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201301299349300305_public.xml","https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201200899349300710_public.xml"],["WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","WWW.COMMUNITYMEDICALCENTERS.ORG","www.communitymedicalcenters.org","www.communitymedicalcenters.org"],["1","1","1","1","1","1","1","true","true","true","1","1"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>id<\/th>\n      <th>TAXYEAR<\/th>\n      <th>ACCOFEESTOTA<\/th>\n      <th>ADDRESCHANGE<\/th>\n      <th>ADVERTTOTALO<\/th>\n      <th>AGGAMOJOICOS<\/th>\n      <th>ALLOOTHECONT<\/th>\n      <th>AMENDERETURN<\/th>\n      <th>BENTOMMEMTOT<\/th>\n      <th>BEPATOMECUYE<\/th>\n      <th>BSNRLTWITORG<\/th>\n      <th>BSRLTHFAMEEM<\/th>\n      <th>CNIBEOY<\/th>\n      <th>CNTRPRFUNEVE<\/th>\n      <th>COCUOFDITOOT<\/th>\n      <th>CONCONMEETOT<\/th>\n      <th>CONFINTEPOLI<\/th>\n      <th>COPRCEEOO<\/th>\n      <th>CYYRRELEEXXP<\/th>\n      <th>DBANBNLINE11<\/th>\n      <th>DBANBNLINE22<\/th>\n      <th>DEPRDEPLTOTA<\/th>\n      <th>DOCURETEPOLI<\/th>\n      <th>DONOADVIFUND<\/th>\n      <th>EXCEBENETRAN<\/th>\n      <th>FEDERACAMPAI<\/th>\n      <th>FEFOSELOTOOT<\/th>\n      <th>FEFOSEMATOOT<\/th>\n      <th>FEFOSEOTTOOT<\/th>\n      <th>FEFOSEPRFUTO<\/th>\n      <th>FFSIMFTOTAL<\/th>\n      <th>FILEREIN<\/th>\n      <th>FILERFOR1<\/th>\n      <th>FILERFOR2<\/th>\n      <th>FILERFORCITY<\/th>\n      <th>FILERFORCTRY<\/th>\n      <th>FILERFORPOST<\/th>\n      <th>FILERFORSTATE<\/th>\n      <th>FILERNAME1<\/th>\n      <th>FILERNAME2<\/th>\n      <th>FILERNAMECTRL<\/th>\n      <th>FILERUS1<\/th>\n      <th>FILERUS2<\/th>\n      <th>FILERUSCITY<\/th>\n      <th>FILERUSSTATE<\/th>\n      <th>FILERUSZIP<\/th>\n      <th>FINALRRETURN<\/th>\n      <th>FOPRTOGOBOOD<\/th>\n      <th>FOREGRANTOTA<\/th>\n      <th>FORMATIONORM<\/th>\n      <th>FUNDDIREEXPE<\/th>\n      <th>FUNDRAEVENTS<\/th>\n      <th>FUNDRAEXPENS<\/th>\n      <th>GOVERNGRANTS<\/th>\n      <th>GRAALLPAITOT<\/th>\n      <th>GRANTOORORGA<\/th>\n      <th>GRATODDOMTOT<\/th>\n      <th>GROINCFUNEVE<\/th>\n      <th>GRPAEOOYY<\/th>\n      <th>GRSIAMCYY<\/th>\n      <th>IFIBPTRCOLUM<\/th>\n      <th>INCARENM<\/th>\n      <th>INFOTECHTOTA<\/th>\n      <th>ININTORECOOL<\/th>\n      <th>INITIARETURN<\/th>\n      <th>INTERETOTALO<\/th>\n      <th>JOCORPINPRSE<\/th>\n      <th>JOINTCCOSTSO<\/th>\n      <th>LEGAFEESTOTA<\/th>\n      <th>LOTOOFDQQPP<\/th>\n      <th>MANAGENEEXPE<\/th>\n      <th>MATEDIVEMISU<\/th>\n      <th>MEMBERDUESUE<\/th>\n      <th>MINUGOVEBODY<\/th>\n      <th>NAFBEOY<\/th>\n      <th>NBREVOTIMEMB<\/th>\n      <th>NBVOMEGOBOOD<\/th>\n      <th>NIFFETRCOLUM<\/th>\n      <th>NONCASCONTRI<\/th>\n      <th>OCCUPATOTALO<\/th>\n      <th>OFENWIBSRLLT<\/th>\n      <th>OFFIEXPETOTA<\/th>\n      <th>ORGANIZATION3<\/th>\n      <th>OTHEMPBENTOT<\/th>\n      <th>OTHSALWAGTOT<\/th>\n      <th>PAYMTOAFAFFI<\/th>\n      <th>PAYRTAXETOTA<\/th>\n      <th>PENPLACONTOT<\/th>\n      <th>PRIEXCBENTRA<\/th>\n      <th>PRNAEOY<\/th>\n      <th>PROGSERVEXPE<\/th>\n      <th>RELATEORGANI<\/th>\n      <th>RETURNTYPE<\/th>\n      <th>SPECASSITOTA<\/th>\n      <th>STCIEOY<\/th>\n      <th>TAXPERBEGIN<\/th>\n      <th>TAXPEREND<\/th>\n      <th>TLNAEOY<\/th>\n      <th>TNAFBEOY<\/th>\n      <th>TOASEOOYY<\/th>\n      <th>TOJOCOMAANGE<\/th>\n      <th>TOLIEOOYY<\/th>\n      <th>TORETORECOOL<\/th>\n      <th>TOTACASHCONT<\/th>\n      <th>TOTAEMPLCNTN<\/th>\n      <th>TOTANBRVVOLU<\/th>\n      <th>TOTEXPCURYEA<\/th>\n      <th>TOTFUNEXPTOT<\/th>\n      <th>TOTJOICOSFUN<\/th>\n      <th>TOTPROSERREV<\/th>\n      <th>TOTREVCURYEA<\/th>\n      <th>TRAVELTOTALO<\/th>\n      <th>TRNAEOY<\/th>\n      <th>UNNEASEOOYY<\/th>\n      <th>URL<\/th>\n      <th>WEBSITSITEIT<\/th>\n      <th>WHISTLPOLICY<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"paging":true,"searching":true,"fixedColumns":true,"autoWidth":true,"ordering":true,"dom":"ftBlp","buttons":["copy","csv"],"columnDefs":[{"className":"dt-right","targets":1},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"id","targets":1},{"name":"TAXYEAR","targets":2},{"name":"ACCOFEESTOTA","targets":3},{"name":"ADDRESCHANGE","targets":4},{"name":"ADVERTTOTALO","targets":5},{"name":"AGGAMOJOICOS","targets":6},{"name":"ALLOOTHECONT","targets":7},{"name":"AMENDERETURN","targets":8},{"name":"BENTOMMEMTOT","targets":9},{"name":"BEPATOMECUYE","targets":10},{"name":"BSNRLTWITORG","targets":11},{"name":"BSRLTHFAMEEM","targets":12},{"name":"CNIBEOY","targets":13},{"name":"CNTRPRFUNEVE","targets":14},{"name":"COCUOFDITOOT","targets":15},{"name":"CONCONMEETOT","targets":16},{"name":"CONFINTEPOLI","targets":17},{"name":"COPRCEEOO","targets":18},{"name":"CYYRRELEEXXP","targets":19},{"name":"DBANBNLINE11","targets":20},{"name":"DBANBNLINE22","targets":21},{"name":"DEPRDEPLTOTA","targets":22},{"name":"DOCURETEPOLI","targets":23},{"name":"DONOADVIFUND","targets":24},{"name":"EXCEBENETRAN","targets":25},{"name":"FEDERACAMPAI","targets":26},{"name":"FEFOSELOTOOT","targets":27},{"name":"FEFOSEMATOOT","targets":28},{"name":"FEFOSEOTTOOT","targets":29},{"name":"FEFOSEPRFUTO","targets":30},{"name":"FFSIMFTOTAL","targets":31},{"name":"FILEREIN","targets":32},{"name":"FILERFOR1","targets":33},{"name":"FILERFOR2","targets":34},{"name":"FILERFORCITY","targets":35},{"name":"FILERFORCTRY","targets":36},{"name":"FILERFORPOST","targets":37},{"name":"FILERFORSTATE","targets":38},{"name":"FILERNAME1","targets":39},{"name":"FILERNAME2","targets":40},{"name":"FILERNAMECTRL","targets":41},{"name":"FILERUS1","targets":42},{"name":"FILERUS2","targets":43},{"name":"FILERUSCITY","targets":44},{"name":"FILERUSSTATE","targets":45},{"name":"FILERUSZIP","targets":46},{"name":"FINALRRETURN","targets":47},{"name":"FOPRTOGOBOOD","targets":48},{"name":"FOREGRANTOTA","targets":49},{"name":"FORMATIONORM","targets":50},{"name":"FUNDDIREEXPE","targets":51},{"name":"FUNDRAEVENTS","targets":52},{"name":"FUNDRAEXPENS","targets":53},{"name":"GOVERNGRANTS","targets":54},{"name":"GRAALLPAITOT","targets":55},{"name":"GRANTOORORGA","targets":56},{"name":"GRATODDOMTOT","targets":57},{"name":"GROINCFUNEVE","targets":58},{"name":"GRPAEOOYY","targets":59},{"name":"GRSIAMCYY","targets":60},{"name":"IFIBPTRCOLUM","targets":61},{"name":"INCARENM","targets":62},{"name":"INFOTECHTOTA","targets":63},{"name":"ININTORECOOL","targets":64},{"name":"INITIARETURN","targets":65},{"name":"INTERETOTALO","targets":66},{"name":"JOCORPINPRSE","targets":67},{"name":"JOINTCCOSTSO","targets":68},{"name":"LEGAFEESTOTA","targets":69},{"name":"LOTOOFDQQPP","targets":70},{"name":"MANAGENEEXPE","targets":71},{"name":"MATEDIVEMISU","targets":72},{"name":"MEMBERDUESUE","targets":73},{"name":"MINUGOVEBODY","targets":74},{"name":"NAFBEOY","targets":75},{"name":"NBREVOTIMEMB","targets":76},{"name":"NBVOMEGOBOOD","targets":77},{"name":"NIFFETRCOLUM","targets":78},{"name":"NONCASCONTRI","targets":79},{"name":"OCCUPATOTALO","targets":80},{"name":"OFENWIBSRLLT","targets":81},{"name":"OFFIEXPETOTA","targets":82},{"name":"ORGANIZATION3","targets":83},{"name":"OTHEMPBENTOT","targets":84},{"name":"OTHSALWAGTOT","targets":85},{"name":"PAYMTOAFAFFI","targets":86},{"name":"PAYRTAXETOTA","targets":87},{"name":"PENPLACONTOT","targets":88},{"name":"PRIEXCBENTRA","targets":89},{"name":"PRNAEOY","targets":90},{"name":"PROGSERVEXPE","targets":91},{"name":"RELATEORGANI","targets":92},{"name":"RETURNTYPE","targets":93},{"name":"SPECASSITOTA","targets":94},{"name":"STCIEOY","targets":95},{"name":"TAXPERBEGIN","targets":96},{"name":"TAXPEREND","targets":97},{"name":"TLNAEOY","targets":98},{"name":"TNAFBEOY","targets":99},{"name":"TOASEOOYY","targets":100},{"name":"TOJOCOMAANGE","targets":101},{"name":"TOLIEOOYY","targets":102},{"name":"TORETORECOOL","targets":103},{"name":"TOTACASHCONT","targets":104},{"name":"TOTAEMPLCNTN","targets":105},{"name":"TOTANBRVVOLU","targets":106},{"name":"TOTEXPCURYEA","targets":107},{"name":"TOTFUNEXPTOT","targets":108},{"name":"TOTJOICOSFUN","targets":109},{"name":"TOTPROSERREV","targets":110},{"name":"TOTREVCURYEA","targets":111},{"name":"TRAVELTOTALO","targets":112},{"name":"TRNAEOY","targets":113},{"name":"UNNEASEOOYY","targets":114},{"name":"URL","targets":115},{"name":"WEBSITSITEIT","targets":116},{"name":"WHISTLPOLICY","targets":117}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-</div>
-<p>Download this table as a csv here:</p>
 </section>
 </section>
-</section>
-<section id="fresno-community-hospital-and-medical-center-fchmc" class="level3">
-<h3 class="anchored" data-anchor-id="fresno-community-hospital-and-medical-center-fchmc">Fresno Community Hospital and Medical Center (FCHMC)</h3>
-</section>
-<section id="community-health-system" class="level3">
-<h3 class="anchored" data-anchor-id="community-health-system">Community Health System</h3>
-</section>
-<section id="board-of-trustees-for-chcc-and-fchmc" class="level3">
-<h3 class="anchored" data-anchor-id="board-of-trustees-for-chcc-and-fchmc">Board of Trustees for CHCC and FCHMC</h3>
 </section>
 </section>
 <section id="company-history" class="level2">

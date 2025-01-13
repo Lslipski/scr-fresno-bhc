@@ -48,37 +48,52 @@ Below is basic information pulled from [@giving_tuesday_data_commons_990]. For a
 
 ```{r}
 # GET request for giving Tuesday 990 data
-resp_990 <- get_990(ein = "942437106")
+resp_990 <- get_990(ein = "942437106") 
 ```
 
 ##### Condensed Results
-
+```{r}
+#| output: true
+resp_990$body$results %>% 
+  select(id, TAXYEAR, TOTAEMPLCNTN, FILERNAME1, FILERUS1, FILERUSCITY, FILERUSSTATE, 
+         FILERUSZIP, FORMATIONORM, GOVERNGRANTS, INFOTECHTOTA, MANAGENEEXPE, 
+         ININTORECOOL, INTERETOTALO, LEGAFEESTOTA, NBREVOTIMEMB, OCCUPATOTALO, 
+         OFFIEXPETOTA, ORGANIZATION3, OTHEMPBENTOT, OTHSALWAGTOT, PAYRTAXETOTA, 
+         PENPLACONTOT, PROGSERVEXPE, TLNAEOY, TNAFBEOY, TOTREVCURYEA) %>% 
+  rename_990() %>% 
+  arrange(desc(tax_year)) %>% 
+  DT::datatable(extensions = 'Buttons',
+                options = list(
+                  paging = TRUE,
+                  searching = TRUE,
+                  fixedColumns = TRUE,
+                  autoWidth = TRUE,
+                  ordering = TRUE,
+                  dom = 'ftBlp',
+                  buttons = c('copy', 'csv')
+                  ),
+                class = "display")
+```
 
 ##### All Results
 
 ```{r}
 #| output: true
 resp_990$body$results %>% 
+  select(order(colnames(.))) %>% 
   relocate(id, TAXYEAR) %>% 
   arrange(desc(TAXYEAR)) %>% 
-  gt::gt() %>% 
-  opt_interactive()
-```
-
-Download this table as a csv here: {{< downloadthis mtcars.csv
-label="Data (csv)" dname=download id=download-btn >}}
-```{r}
-resp_990$body$results %>% 
-  relocate(id, TAXYEAR) %>% 
-  arrange(desc(TAXYEAR)) %>% 
-download_this(
-  .data = .,
-  output_name = NULL,
-  output_extension = c(".csv"),
-  button_label = "Get data (csv)",
-  button_type = "primary",
-  has_icon = FALSE,
-  self_contained = FALSE)
+  DT::datatable(extensions = 'Buttons',
+                options = list(
+                  paging = TRUE,
+                  searching = TRUE,
+                  fixedColumns = TRUE,
+                  autoWidth = TRUE,
+                  ordering = TRUE,
+                  dom = 'ftBlp',
+                  buttons = c('copy', 'csv')
+                  ),
+                class = "display")
 ```
 
 
@@ -86,16 +101,21 @@ download_this(
 
 
 
-
-## Strategy
-
-
-## Appendix
-
 ### Form 990 Data Dictionary {#sec-form-990-dd}
 
 This table gives definitions for all of the variables in @sec-form-990.
 ```{r}
 read_csv(here::here("data/Basic_Data_Dic_Giving_Tuesday_Data_Commons.csv")) %>% 
-  gt::gt()
+  arrange(`Variable Name`) %>% 
+  DT::datatable(extensions = 'Buttons',
+                options = list(
+                  paging = TRUE,
+                  searching = TRUE,
+                  fixedColumns = TRUE,
+                  autoWidth = TRUE,
+                  ordering = TRUE,
+                  dom = 'ftBlp',
+                  buttons = c('copy', 'csv')
+                  ),
+                class = "display")
 ```

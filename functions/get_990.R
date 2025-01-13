@@ -8,7 +8,9 @@
 #' @import jsonlite
 #'
 #' @returns a tibble parsed from a json
-get_990 <- function(ein) {
+get_990 <- function(ein,
+                    type = "basic") {
+  if (type == "basic") {
   resp <- httr2::request("https://990-infrastructure.gtdata.org/irs-data/990basic120fields") |> 
     httr2::req_url_query(
       ein = ein,
@@ -16,4 +18,7 @@ get_990 <- function(ein) {
     httr2::req_perform() %>% 
     httr2::resp_body_string() %>% 
     jsonlite::fromJSON() 
+  }
+  
+  return(resp)
 }
