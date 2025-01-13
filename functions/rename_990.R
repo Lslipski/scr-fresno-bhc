@@ -2,7 +2,7 @@
 
 rename_990 <- function(df) {
   df %>% 
-    rename(tax_year = TAXYEAR, 
+    dplyr::rename(tax_year = TAXYEAR, 
            num_employees = TOTAEMPLCNTN, 
            company_name = FILERNAME1, 
            address = FILERUS1, 
