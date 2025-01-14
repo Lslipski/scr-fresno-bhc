@@ -19,7 +19,12 @@ load_functions()
 
 ### Community Hospitals of Central California (CHCC)
 
-When Googling CHCC, the website that comes up first is ["Community Medical Centers"](https://www.communitymedical.org/). They list 4 hospital facilities on their site, but no location for a headquarters. These locations are:
+**EIN: 942437106**
+
+When Googling CHCC @community_medical_centers, the website that comes up first is "Community Medical Centers" @community_medical_centers and not "Community Hospitals of Central California".
+
+CHCC has a sort of confusing website setup. First, they have a website called communitymedical.org @community_medical_centers. This site appears to be dedicated
+to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org, which appears to be a much longer list of medical centers and administrative buildings that are primarily near Stockton.
 
   - Clovis Community Medical Center
       - 2755 Herndon Avenue
@@ -42,9 +47,14 @@ When Googling CHCC, the website that comes up first is ["Community Medical Cente
       - `(559) 449-8000`
       
       
+The [Locations Page](https://cmcenters.org/locations/) on their site
+      
+      
 #### Form 990 {#sec-form-990}
 
-Below is basic information pulled from [@giving_tuesday_data_commons_990]. For all variable definitions see @sec-form-990-dd.
+A viewable version of Form 990 for CHCC @community_medical_centers can be seen [here](https://app.candid.org/profile/8399618).
+
+Below is basic information pulled from Giving Tuesday Data Commons @giving_tuesday_data_commons_990. For all variable definitions see @sec-form-990-dd.
 
 ```{r}
 # GET request for giving Tuesday 990 data
@@ -96,15 +106,11 @@ resp_990$body$results %>%
                 class = "display")
 ```
 
-
-## Company History
-
-
-
 ### Form 990 Data Dictionary {#sec-form-990-dd}
 
 This table gives definitions for all of the variables in @sec-form-990.
 ```{r}
+#| output: true
 read_csv(here::here("data/Basic_Data_Dic_Giving_Tuesday_Data_Commons.csv")) %>% 
   arrange(`Variable Name`) %>% 
   DT::datatable(extensions = 'Buttons',
@@ -119,3 +125,8 @@ read_csv(here::here("data/Basic_Data_Dic_Giving_Tuesday_Data_Commons.csv")) %>%
                   ),
                 class = "display")
 ```
+
+
+## Strategy
+
+  - CHCC @community_medical_centers is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.

@@ -1,0 +1,71 @@
+---
+title: "2. Operations"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(downloadthis)
+library(DT)
+source(here::here('functions/load_functions.R'))
+load_functions()
+```
+
+```{r}
+# NOTE: Best to run this in console since
+# save latest NCCS data. Only need to run if new data available
+#download_nccs()
+```
+
+```{r}
+# load nccs data from local and get CHCC data
+df_nccs <- load_nccs(year = "2025",
+                     month = "01") %>% 
+  filter(EIN == 942437106)
+```
+
+## About
+
+The [About Page](https://cmcenters.org/about/) on the CHCC @community_medical_centers website says:
+
+>At Community Medical Centers (CMC), we’re passionate about improving health and well-being in the communities we call home. That’s why we work to ensure even our most vulnerable neighbors have affordable access to quality healthcare, regardless of age, income, or background.
+  We offer integrated medical, dental, behavioral health, and supportive services, with a model of care that puts the patient at the center of a team-based approach. As one of the region’s largest healthcare providers, our growing network of neighborhood health centers serves over 100,000 patients in San Joaquin and Solano counties.
+
+## National Taxonomy of Exempt Entities
+
+Community Hospitals of Central California's NTEE Code: 
+**`r df_nccs %>% pull(NTEE_CD)`**
+
+Noting that the Urban Institute's National Center for Charitable Statistics Website @ui_nccs has a list of NTEE codes. E300 is not among them. However, E30 appears in the list with
+the following description:
+
+**Ambulatory & Primary Health Care**
+
+> Health centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.
+
+## Services
+The [Services Page](https://cmcenters.org/services/) on the CHCC @community_medical_centers website
+lists the following services:
+
+  - Adult Medicine
+  - Behavioral Health
+  - Dental Care
+  - Care Link Community Outreach
+  - Pediatrics and Adolescent Health
+  - Pharmacy
+  - Recovery
+  - Women's Health
+  - Health Coverage Counseling
+  - Health Education
+  - Women, Infants and Children Program (WIC)
+
+## Facilities
+
+
+
+## Workforce
+## Suppliers
+## Procurement/ Distribution
+## Customers/Clients
+## Utilities
+## Subsidiaries

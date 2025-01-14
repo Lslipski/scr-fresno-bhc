@@ -7,14 +7,17 @@ website:
   sidebar: 
     style: "floating"
     contents: 
-      - text: "1. Introduction"
-        href: introduction.qmd
+      - text: "1. Introduction" 
+        href: 01_introduction.qmd
+      - text: "2. Operations"
+        href: 02_operations.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.scss
     toc: true
+    toc-depth: 5
     
 execute: 
   echo: false
@@ -22,3 +25,4 @@ execute:
   warning: false
   
 bibliography: references.bibtex
+csl: diabetologia.csl
