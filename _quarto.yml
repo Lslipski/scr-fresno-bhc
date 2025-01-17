@@ -7,10 +7,10 @@ website:
   sidebar: 
     style: "floating"
     contents: 
-      - text: "1. Introduction" 
-        href: 01_introduction.qmd
-      - text: "2. Operations"
-        href: 02_operations.qmd
+      - text: "1. Basic Information" 
+        href: 01_basic_information.qmd
+      - text: "2. Products and Services"
+        href: 02_products_services.qmd
 
 format:
   html:

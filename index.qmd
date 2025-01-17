@@ -4,10 +4,10 @@ format: html
 ---
 
 This report provides strategic corporate research regarding a number of organizations
-that have mismanaged funds, to the detriment of Medi-Cal recipients and other low-income Californians, by neglecting medical treatment facilities at Fresno CRMC and instead enhancing the neighboring and affluent Clovis CMC. This report begins by investigating Community Hospitals of Central California and will expand to also include:
+that have mismanaged funds, to the detriment of Medi-Cal recipients and other low-income Californians, by neglecting medical treatment facilities at Fresno CRMC and instead enhancing the neighboring and affluent Clovis CMC. This report begins by investigating Community Hospitals of Central California and will expand as needed to also include:
 
   - Fresno Community Hospital and Medical Center
   - Community Health System
   - Board of Trustees for Community Hospitals of Central California and Fresno Community Hospital and Medical Center
   
-  The framework for this report is taken from the [strategic corporate research guide ](https://strategiccorporateresearch.org/) website. And its chapters correspond to the 24 question model described there.
+  The framework for this report is taken from the [strategic corporate research guide ](https://strategiccorporateresearch.org/) website. And its chapters correspond to the 24 question model described in Juravich's "Beating Global Capital" @beating_global_capital.
