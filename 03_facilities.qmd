@@ -1,0 +1,134 @@
+---
+title: "03 Facilities"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(ggmap)
+library(sf)
+library(mapview)
+library(leafpop)
+library(downloadthis)
+library(DT)
+source(here::here('functions/load_functions.R'))
+load_functions()
+```
+
+## List of Facilities {#sec-facilities}
+
+### Fresno Facilites @community_medical_centers
+```{r}
+#| output: true
+get_facilities(site = "chcc") %>% 
+  DT::datatable(extensions = 'Buttons',
+                options = list(
+                  paging = TRUE,
+                  searching = TRUE,
+                  fixedColumns = TRUE,
+                  autoWidth = TRUE,
+                  ordering = TRUE,
+                  dom = 'ftBlp',
+                  buttons = c('copy', 'csv')
+                  ),
+                class = "display")
+```
+  
+      
+### Other Facilities @cmcenters
+
+```{r}
+#| output: true
+get_facilities(site = "other") %>% 
+  DT::datatable(extensions = 'Buttons',
+                options = list(
+                  paging = TRUE,
+                  searching = TRUE,
+                  fixedColumns = TRUE,
+                  autoWidth = TRUE,
+                  ordering = TRUE,
+                  dom = 'ftBlp',
+                  buttons = c('copy', 'csv')
+                  ),
+                class = "display")
+```
+
+## Contact Info
+
+Medical Records
+`myfaxmedrec@cmcenters.org`
+Phone: `(209) 546-3870`
+Fax: `(209) 762-6808`
+Mail: P.O. Box 779, Stockton CA 95201
+
+Administrative Offices
+`info@cmcenters.org`
+Phone: `(209) 373-2800`
+Fax: `(209) 373-2878`
+Mail: P.O. Box 779, Stockton CA 95201
+
+Human Resources
+`hr@cmcenters.org`
+Phone: `(209) 373-2800`
+
+Patient Portal Support
+`(209) 430-6222`
+
+Patient Relations
+`patientrelations@cmcenters.org`
+
+## Map
+```{r, register google geocoding api key}
+# only run once
+#api_key <- Sys.getenv("google_geocoding_api")
+#register_google(key = api_key)
+```
+
+```{r, geocode facilities list}
+# only run if new facilities are added to list
+
+# obtain latitude and longitude
+# df_geocode <- get_facilities() %>% 
+#   unite(address, city, state, zip, 
+#         col = "location",
+#         sep = ", ") %>% 
+#   mutate_geocode(.,
+#                  location)
+
+# Merge with original dataset
+# df_geocode_join <- get_facilities() %>% 
+#   left_join(.,
+#             df_geocode %>% 
+#               select(name,
+#                      lon,
+#                      lat),
+#             by = "name")
+# 
+# save
+# write_csv(df_geocode_join,
+#           file = here::here("data/facilities_geocoded.csv"))
+```
+
+```{r, load geocoded facilities data}
+Facilities <- read_csv(file = here::here("data/facilities_geocoded.csv")) %>% 
+  sf::st_as_sf(.,
+               crs = 4326,
+               coords = c("lon", "lat"))
+```
+
+```{r}
+#| output: true
+mapview::mapview(Facilities,
+                 popup = popupTable(Facilities,
+                            zcol = c("name",
+                                     "address",
+                                     "city",
+                                     "state",
+                                     "zip",
+                                     "phone",
+                                     "org"),
+                            feature.id = FALSE,
+                            row.numbers = FALSE))
+```
+
+

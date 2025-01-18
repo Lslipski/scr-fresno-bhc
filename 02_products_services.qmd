@@ -12,24 +12,17 @@ load_functions()
 ```
 
 ```{r}
-# NOTE: Best to run this in console since
-# save latest NCCS data. Only need to run if new data available
+# NOTE: Best to run this in console since it is interactive.
+# Save latest NCCS data. Only need to run if new data available
 #download_nccs()
 ```
 
 ```{r}
-# load nccs data from local and get CHCC data
+# load nccs data from local (above chunk) and get CHCC data
 df_nccs <- load_nccs(year = "2025",
                      month = "01") %>% 
   filter(EIN == 942437106)
 ```
-
-## About
-
-The [About Page](https://cmcenters.org/about/) on the CHCC @community_medical_centers website says:
-
->At Community Medical Centers (CMC), we’re passionate about improving health and well-being in the communities we call home. That’s why we work to ensure even our most vulnerable neighbors have affordable access to quality healthcare, regardless of age, income, or background.
-  We offer integrated medical, dental, behavioral health, and supportive services, with a model of care that puts the patient at the center of a team-based approach. As one of the region’s largest healthcare providers, our growing network of neighborhood health centers serves over 100,000 patients in San Joaquin and Solano counties.
 
 ## National Taxonomy of Exempt Entities
 
@@ -43,29 +36,38 @@ the following description:
 
 > Health centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.
 
+## About
+
+The [About Page](https://www.communitymedical.org/about-us) on the CHCC @community_medical_centers (and NOT the Stockton based cmcenters) website says:
+
+>   We operate four hospitals and a cancer institute, along with several long-term care, 
+outpatient and other healthcare facilities.
+    We're led by local leaders and physicians focused on addressing the diverse needs and issues of Central California. As the leading healthcare provider in the central San Joaquin Valley, Community cares for more people in the region than any other.
+    That means regardless of income level or social demographics, we provide top notch care to support the health and well-being of those in need.
+    We partner with UCSF — one of the world's top three medical schools and recruit physicians from around the country and world to bring you new specialties and treatments.
+    By creating an environment of innovation and adding advanced medical technologies to our repertoire, we assure the care you receive from the Community Medical Centers healthcare network will continue to be second-to-none.
+
+They also have a [Community Benefit Page](https://www.communitymedical.org/about-us/our-impact#comm_benefit) that explicitly says under the heading "Access to Healthcare":
+
+> Goal: Increase access to healthcare services through primary care, preventative care and specialty care services, including HIV/AIDS/STIs, for medically underserved residents
+
 ## Services
-The [Services Page](https://cmcenters.org/services/) on the CHCC @community_medical_centers website
-lists the following services:
 
-  - Adult Medicine
-  - Behavioral Health
-  - Dental Care
-  - Care Link Community Outreach
-  - Pediatrics and Adolescent Health
-  - Pharmacy
-  - Recovery
-  - Women's Health
-  - Health Coverage Counseling
-  - Health Education
-  - Women, Infants and Children Program (WIC)
+The [Services Page](https://www.communitymedical.org/specialties-and-departments) on the CHCC @community_medical_centers website has a long list of medical services they provide, each with
+its own dedicated page
 
-## Facilities
+
+## Quality and Safety Measures
+
+::: {.callout-important title="Potential Argument"}
+It's worth noting that their [Quality & Safety Measures](https://www.communitymedical.org/for-patients-families/quality-measures) page gives 5 outcome measures by 3 locations at the hospital, state, and national level. As they present it, the Clovis facilities have **worse** outcomes than the others. Notably, these are all emergent or acute measures.
+:::
 
 
 
-## Workforce
-## Suppliers
-## Procurement/ Distribution
-## Customers/Clients
-## Utilities
-## Subsidiaries
+
+
+
+
+
+
