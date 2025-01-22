@@ -50,11 +50,34 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Executive Summary",
+    "objectID": "01_basic_information.html",
+    "href": "01_basic_information.html",
+    "title": "1. Basic Information",
     "section": "",
-    "text": "This report provides strategic corporate research regarding a number of organizations that have mismanaged funds, to the detriment of Medi-Cal recipients and other low-income Californians, by neglecting medical treatment facilities at Fresno CRMC and instead enhancing the neighboring and affluent Clovis CMC. This report begins by investigating Community Hospitals of Central California and will expand as needed to also include:\n\nFresno Community Hospital and Medical Center\nCommunity Health System\nBoard of Trustees for Community Hospitals of Central California and Fresno Community Hospital and Medical Center\n\nThe framework for this report is taken from the strategic corporate research guide website. And its chapters correspond to the 24 question model described in Juravich’s “Beating Global Capital” [1].\n\n\n\n\nReferences\n\n1. Juravich T (2AD) Beating global capital: A framework and method for union strategic corporate research and campaigns"
+    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See ?@sec-facilities for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "crumbs": [
+      "1. Basic Information"
+    ]
+  },
+  {
+    "objectID": "01_basic_information.html#basic-information",
+    "href": "01_basic_information.html#basic-information",
+    "title": "1. Basic Information",
+    "section": "",
+    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See ?@sec-facilities for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "crumbs": [
+      "1. Basic Information"
+    ]
+  },
+  {
+    "objectID": "01_basic_information.html#strategy",
+    "href": "01_basic_information.html#strategy",
+    "title": "1. Basic Information",
+    "section": "Strategy",
+    "text": "Strategy\n\nCHCC [1] is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.",
+    "crumbs": [
+      "1. Basic Information"
+    ]
   },
   {
     "objectID": "03_facilities.html#contact-info",
@@ -87,33 +110,20 @@
     ]
   },
   {
-    "objectID": "01_basic_information.html",
-    "href": "01_basic_information.html",
-    "title": "1. Basic Information",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Executive Summary",
     "section": "",
-    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See ?@sec-facilities for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
-    "crumbs": [
-      "1. Basic Information"
-    ]
+    "text": "This report provides strategic corporate research regarding a number of organizations that have mismanaged funds, to the detriment of Medi-Cal recipients and other low-income Californians, by neglecting medical treatment facilities at Fresno CRMC and instead enhancing the neighboring and affluent Clovis CMC. This report begins by investigating Community Hospitals of Central California and will expand as needed to also include:\n\nFresno Community Hospital and Medical Center\nCommunity Health System\nBoard of Trustees for Community Hospitals of Central California and Fresno Community Hospital and Medical Center\n\nThe framework for this report is taken from the strategic corporate research guide website. And its chapters correspond to the 24 question model described in Juravich’s “Beating Global Capital” [1].\n\n\n\n\nReferences\n\n1. Juravich T (2AD) Beating global capital: A framework and method for union strategic corporate research and campaigns"
   },
   {
-    "objectID": "01_basic_information.html#basic-information",
-    "href": "01_basic_information.html#basic-information",
-    "title": "1. Basic Information",
+    "objectID": "99_bibliography.html",
+    "href": "99_bibliography.html",
+    "title": "Bibliography",
     "section": "",
-    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See ?@sec-facilities for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "text": "References\n\n1. (2025) Community hospitals of central california\n\n\n2. (2025) Community medical centers\n\n\n3. (2025) Giving tuesday data commons 990 datasets API\n\n\n4. (2025) Urban institute’s national center for charitable statistics\n\n\n5. Juravich T (2AD) Beating global capital: A framework and method for union strategic corporate research and campaigns\n\n\n6. (2025) Community medical centers, inc. Form 990",
     "crumbs": [
-      "1. Basic Information"
-    ]
-  },
-  {
-    "objectID": "01_basic_information.html#strategy",
-    "href": "01_basic_information.html#strategy",
-    "title": "1. Basic Information",
-    "section": "Strategy",
-    "text": "Strategy\n\nCHCC [1] is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.",
-    "crumbs": [
-      "1. Basic Information"
+      "Bibliography"
     ]
   }
 ]
