@@ -356,16 +356,22 @@
   {
     "objectID": "03_facilities.html#contact-info",
     "href": "03_facilities.html#contact-info",
-    "title": "03 Facilities",
+    "title": "3. Facilities",
     "section": "Contact Info",
-    "text": "Contact Info\nMedical Records myfaxmedrec@cmcenters.org Phone: (209) 546-3870 Fax: (209) 762-6808 Mail: P.O. Box 779, Stockton CA 95201\nAdministrative Offices info@cmcenters.org Phone: (209) 373-2800 Fax: (209) 373-2878 Mail: P.O. Box 779, Stockton CA 95201\nHuman Resources hr@cmcenters.org Phone: (209) 373-2800\nPatient Portal Support (209) 430-6222\nPatient Relations patientrelations@cmcenters.org"
+    "text": "Contact Info\nMedical Records myfaxmedrec@cmcenters.org Phone: (209) 546-3870 Fax: (209) 762-6808 Mail: P.O. Box 779, Stockton CA 95201\nAdministrative Offices info@cmcenters.org Phone: (209) 373-2800 Fax: (209) 373-2878 Mail: P.O. Box 779, Stockton CA 95201\nHuman Resources hr@cmcenters.org Phone: (209) 373-2800\nPatient Portal Support (209) 430-6222\nPatient Relations patientrelations@cmcenters.org",
+    "crumbs": [
+      "3. Facilities"
+    ]
   },
   {
     "objectID": "03_facilities.html#map",
     "href": "03_facilities.html#map",
-    "title": "03 Facilities",
+    "title": "3. Facilities",
     "section": "Map",
-    "text": "Map"
+    "text": "Map",
+    "crumbs": [
+      "3. Facilities"
+    ]
   },
   {
     "objectID": "03_facilities.html#form-990-property-values-schedule-d-part-vi",
@@ -377,8 +383,11 @@
   {
     "objectID": "03_facilities.html#total-property-values",
     "href": "03_facilities.html#total-property-values",
-    "title": "03 Facilities",
+    "title": "3. Facilities",
     "section": "Total Property Values",
-    "text": "Total Property Values\nTaken from Schedule D Part VI of the 2023 Form 990:\n\n\n\nfacilities_cost"
+    "text": "Total Property Values\nTaken from Schedule D Part VI of the 2023 Form 990:\n\n\n\nfacilities_cost",
+    "crumbs": [
+      "3. Facilities"
+    ]
   }
 ]
