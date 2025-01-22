@@ -24,7 +24,7 @@ load_functions()
 When Googling CHCC @community_medical_centers, the website that comes up first is "Community Medical Centers" @community_medical_centers and not "Community Hospitals of Central California".
 
 CHCC has a sort of confusing website setup. First, they have a website called communitymedical.org @community_medical_centers. This site appears to be dedicated
-to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org @cmcenters, which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The [Locations Page](https://cmcenters.org/locations/) on the second site @cmcenters lists all of the Stockton area locations. See @sec-facilities for a comprehensive list and map of all facilities.
+to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org @cmcenters, which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The [Locations Page](https://cmcenters.org/locations/) on the second site @cmcenters lists all of the Stockton area locations. See @sec-facilities for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page @cmcenters
 
   - Clovis Community Medical Center
       - 2755 Herndon Avenue

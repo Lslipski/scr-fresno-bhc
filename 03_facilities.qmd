@@ -130,5 +130,8 @@ mapview::mapview(Facilities,
                             feature.id = FALSE,
                             row.numbers = FALSE))
 ```
+## Total Property Values
 
+Taken from Schedule D Part VI of the 2023 Form 990:
 
+![facilities_cost](data/chcc_form990_2023_scheduleD_partvi.png)
