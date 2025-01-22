@@ -58,6 +58,7 @@ Below is basic information pulled from Giving Tuesday Data Commons @giving_tuesd
 resp_990 <- get_990(ein = "942437106") 
 ```
 
+
 ##### Select Fields
 ```{r}
 #| output: true
@@ -81,6 +82,8 @@ resp_990$body$results %>%
                   ),
                 class = "display")
 ```
+
+
 
 ##### All Fields
 

@@ -11,7 +11,7 @@ website:
         href: 01_basic_information.qmd
       - text: "2. Products and Services"
         href: 02_products_services.qmd
-      - text: "03. Facilities"
+      - text: "3. Facilities"
         href: 03_facilities.qmd
 
 format:
