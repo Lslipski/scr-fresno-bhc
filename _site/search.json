@@ -1,5 +1,55 @@
 [
   {
+    "objectID": "02_products_services.html",
+    "href": "02_products_services.html",
+    "title": "2. Operations",
+    "section": "",
+    "text": "Community Hospitals of Central California’s NTEE Code: E300\nNoting that the Urban Institute’s National Center for Charitable Statistics Website [1] has a list of NTEE codes. E300 is not among them. However, E30 appears in the list with the following description:\nAmbulatory & Primary Health Care\n\nHealth centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.",
+    "crumbs": [
+      "2. Products and Services"
+    ]
+  },
+  {
+    "objectID": "02_products_services.html#national-taxonomy-of-exempt-entities",
+    "href": "02_products_services.html#national-taxonomy-of-exempt-entities",
+    "title": "2. Operations",
+    "section": "",
+    "text": "Community Hospitals of Central California’s NTEE Code: E300\nNoting that the Urban Institute’s National Center for Charitable Statistics Website [1] has a list of NTEE codes. E300 is not among them. However, E30 appears in the list with the following description:\nAmbulatory & Primary Health Care\n\nHealth centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.",
+    "crumbs": [
+      "2. Products and Services"
+    ]
+  },
+  {
+    "objectID": "02_products_services.html#about",
+    "href": "02_products_services.html#about",
+    "title": "2. Operations",
+    "section": "About",
+    "text": "About\nThe About Page on the CHCC [2] (and NOT the Stockton based cmcenters) website says:\n\nWe operate four hospitals and a cancer institute, along with several long-term care, outpatient and other healthcare facilities. We’re led by local leaders and physicians focused on addressing the diverse needs and issues of Central California. As the leading healthcare provider in the central San Joaquin Valley, Community cares for more people in the region than any other. That means regardless of income level or social demographics, we provide top notch care to support the health and well-being of those in need. We partner with UCSF — one of the world’s top three medical schools and recruit physicians from around the country and world to bring you new specialties and treatments. By creating an environment of innovation and adding advanced medical technologies to our repertoire, we assure the care you receive from the Community Medical Centers healthcare network will continue to be second-to-none.\n\nThey also have a Community Benefit Page that explicitly says under the heading “Access to Healthcare”:\n\nGoal: Increase access to healthcare services through primary care, preventative care and specialty care services, including HIV/AIDS/STIs, for medically underserved residents",
+    "crumbs": [
+      "2. Products and Services"
+    ]
+  },
+  {
+    "objectID": "02_products_services.html#services",
+    "href": "02_products_services.html#services",
+    "title": "2. Operations",
+    "section": "Services",
+    "text": "Services\nThe Services Page on the CHCC [2] website has a long list of medical services they provide, each with its own dedicated page",
+    "crumbs": [
+      "2. Products and Services"
+    ]
+  },
+  {
+    "objectID": "02_products_services.html#quality-and-safety-measures",
+    "href": "02_products_services.html#quality-and-safety-measures",
+    "title": "2. Operations",
+    "section": "Quality and Safety Measures",
+    "text": "Quality and Safety Measures\n\n\n\n\n\n\nPotential Argument\n\n\n\nIt’s worth noting that their Quality & Safety Measures page gives 5 outcome measures by 3 locations at the hospital, state, and national level. As they present it, the Clovis facilities have worse outcomes than the others. Notably, these are all emergent or acute measures.",
+    "crumbs": [
+      "2. Products and Services"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Executive Summary",
@@ -7,210 +57,33 @@
     "text": "This report provides strategic corporate research regarding a number of organizations that have mismanaged funds, to the detriment of Medi-Cal recipients and other low-income Californians, by neglecting medical treatment facilities at Fresno CRMC and instead enhancing the neighboring and affluent Clovis CMC. This report begins by investigating Community Hospitals of Central California and will expand as needed to also include:\n\nFresno Community Hospital and Medical Center\nCommunity Health System\nBoard of Trustees for Community Hospitals of Central California and Fresno Community Hospital and Medical Center\n\nThe framework for this report is taken from the strategic corporate research guide website. And its chapters correspond to the 24 question model described in Juravich’s “Beating Global Capital” [1].\n\n\n\n\nReferences\n\n1. Juravich T (2AD) Beating global capital: A framework and method for union strategic corporate research and campaigns"
   },
   {
-    "objectID": "introduction.html",
-    "href": "introduction.html",
-    "title": "1. Introduction",
-    "section": "",
-    "text": "When Googling CHCC, the website that comes up first is “Community Medical Centers”. They list 4 hospital facilities on their site, but no location for a headquarters. These locations are:\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nBelow is basic information pulled from (“Giving Tuesday Data Commons 990 Datasets API” 2025). For all variable definitions see Section 4.1.",
+    "objectID": "03_facilities.html#contact-info",
+    "href": "03_facilities.html#contact-info",
+    "title": "3. Facilities",
+    "section": "Contact Info",
+    "text": "Contact Info\nMedical Records myfaxmedrec@cmcenters.org Phone: (209) 546-3870 Fax: (209) 762-6808 Mail: P.O. Box 779, Stockton CA 95201\nAdministrative Offices info@cmcenters.org Phone: (209) 373-2800 Fax: (209) 373-2878 Mail: P.O. Box 779, Stockton CA 95201\nHuman Resources hr@cmcenters.org Phone: (209) 373-2800\nPatient Portal Support (209) 430-6222\nPatient Relations patientrelations@cmcenters.org",
     "crumbs": [
-      "1. Introduction"
+      "3. Facilities"
     ]
   },
   {
-    "objectID": "introduction.html#basic-information",
-    "href": "introduction.html#basic-information",
-    "title": "1. Introduction",
-    "section": "",
-    "text": "When Googling CHCC, the website that comes up first is “Community Medical Centers”. They list 4 hospital facilities on their site, but no location for a headquarters. These locations are:\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nBelow is basic information pulled from (“Giving Tuesday Data Commons 990 Datasets API” 2025). For all variable definitions see Section 4.1.",
+    "objectID": "03_facilities.html#map",
+    "href": "03_facilities.html#map",
+    "title": "3. Facilities",
+    "section": "Map",
+    "text": "Map",
     "crumbs": [
-      "1. Introduction"
+      "3. Facilities"
     ]
   },
   {
-    "objectID": "introduction.html#company-history",
-    "href": "introduction.html#company-history",
-    "title": "1. Introduction",
-    "section": "Company History",
-    "text": "Company History",
+    "objectID": "03_facilities.html#total-property-values",
+    "href": "03_facilities.html#total-property-values",
+    "title": "3. Facilities",
+    "section": "Total Property Values",
+    "text": "Total Property Values\nTaken from Schedule D Part VI of the 2023 Form 990:\n\n\n\nfacilities_cost",
     "crumbs": [
-      "1. Introduction"
-    ]
-  },
-  {
-    "objectID": "introduction.html#strategy",
-    "href": "introduction.html#strategy",
-    "title": "1. Introduction",
-    "section": "Strategy",
-    "text": "Strategy",
-    "crumbs": [
-      "1. Introduction"
-    ]
-  },
-  {
-    "objectID": "introduction.html#appendix",
-    "href": "introduction.html#appendix",
-    "title": "1. Introduction",
-    "section": "Appendix",
-    "text": "Appendix\n\nForm 990 Data Dictionary\nThis table gives definitions for all of the variables in Section 1.1.1.",
-    "crumbs": [
-      "1. Introduction"
-    ]
-  },
-  {
-    "objectID": "01_introduction.html",
-    "href": "01_introduction.html",
-    "title": "1. Introduction",
-    "section": "",
-    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org, which appears to be a much longer list of medical centers and administrative buildings that are primarily near Stockton.\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\nThe Locations Page on their site\n\n\nA viewable version of Form 990 for CHCC [1] can be seen here.\nBelow is basic information pulled from Giving Tuesday Data Commons [2]. For all variable definitions see Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
-    "crumbs": [
-      "1. Introduction"
-    ]
-  },
-  {
-    "objectID": "01_introduction.html#basic-information",
-    "href": "01_introduction.html#basic-information",
-    "title": "1. Introduction",
-    "section": "",
-    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org, which appears to be a much longer list of medical centers and administrative buildings that are primarily near Stockton.\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\nThe Locations Page on their site\n\n\nA viewable version of Form 990 for CHCC [1] can be seen here.\nBelow is basic information pulled from Giving Tuesday Data Commons [2]. For all variable definitions see Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
-    "crumbs": [
-      "1. Introduction"
-    ]
-  },
-  {
-    "objectID": "01_introduction.html#company-history",
-    "href": "01_introduction.html#company-history",
-    "title": "1. Introduction",
-    "section": "Company History",
-    "text": "Company History\n\nForm 990 Data Dictionary\nThis table gives definitions for all of the variables in Section 1.1.1.",
-    "crumbs": [
-      "1. Introduction"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#facilities",
-    "href": "02_operations.html#facilities",
-    "title": "2. Operations",
-    "section": "Facilities",
-    "text": "Facilities",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#workforce",
-    "href": "02_operations.html#workforce",
-    "title": "2. Operations",
-    "section": "Workforce",
-    "text": "Workforce",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#suppliers",
-    "href": "02_operations.html#suppliers",
-    "title": "2. Operations",
-    "section": "Suppliers",
-    "text": "Suppliers",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#procurement-distribution",
-    "href": "02_operations.html#procurement-distribution",
-    "title": "2. Operations",
-    "section": "Procurement/ Distribution",
-    "text": "Procurement/ Distribution",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#customersclients",
-    "href": "02_operations.html#customersclients",
-    "title": "2. Operations",
-    "section": "Customers/Clients",
-    "text": "Customers/Clients",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#utilities",
-    "href": "02_operations.html#utilities",
-    "title": "2. Operations",
-    "section": "Utilities",
-    "text": "Utilities",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#subsidiaries",
-    "href": "02_operations.html#subsidiaries",
-    "title": "2. Operations",
-    "section": "Subsidiaries",
-    "text": "Subsidiaries"
-  },
-  {
-    "objectID": "02_operations.html",
-    "href": "02_operations.html",
-    "title": "2. Operations",
-    "section": "",
-    "text": "The About Page on the CHCC [1] website says:\n\nAt Community Medical Centers (CMC), we’re passionate about improving health and well-being in the communities we call home. That’s why we work to ensure even our most vulnerable neighbors have affordable access to quality healthcare, regardless of age, income, or background. We offer integrated medical, dental, behavioral health, and supportive services, with a model of care that puts the patient at the center of a team-based approach. As one of the region’s largest healthcare providers, our growing network of neighborhood health centers serves over 100,000 patients in San Joaquin and Solano counties.",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#national-taxonomy-of-exempt-entities",
-    "href": "02_operations.html#national-taxonomy-of-exempt-entities",
-    "title": "2. Operations",
-    "section": "National Taxonomy of Exempt Entities",
-    "text": "National Taxonomy of Exempt Entities\nCommunity Hospitals of Central California’s NTEE Code: E300\nNoting that the Urban Institute’s National Center for Charitable Statistics Website [2] has a list of NTEE codes. E300 is not among them. However, E30 appears in the list with the following description:\nAmbulatory & Primary Health Care\n\nHealth centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#productsservices",
-    "href": "02_operations.html#productsservices",
-    "title": "2. Operations",
-    "section": "Products/Services",
-    "text": "Products/Services",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#about",
-    "href": "02_operations.html#about",
-    "title": "2. Operations",
-    "section": "",
-    "text": "The About Page on the CHCC [1] website says:\n\nAt Community Medical Centers (CMC), we’re passionate about improving health and well-being in the communities we call home. That’s why we work to ensure even our most vulnerable neighbors have affordable access to quality healthcare, regardless of age, income, or background. We offer integrated medical, dental, behavioral health, and supportive services, with a model of care that puts the patient at the center of a team-based approach. As one of the region’s largest healthcare providers, our growing network of neighborhood health centers serves over 100,000 patients in San Joaquin and Solano counties.",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "02_operations.html#services",
-    "href": "02_operations.html#services",
-    "title": "2. Operations",
-    "section": "Services",
-    "text": "Services\nThe Services Page on the CHCC [1] website lists the following services:\n\nAdult Medicine\nBehavioral Health\nDental Care\nCare Link Community Outreach\nPediatrics and Adolescent Health\nPharmacy\nRecovery\nWomen’s Health\nHealth Coverage Counseling\nHealth Education\nWomen, Infants and Children Program (WIC)",
-    "crumbs": [
-      "2. Operations"
-    ]
-  },
-  {
-    "objectID": "01_introduction.html#strategy",
-    "href": "01_introduction.html#strategy",
-    "title": "1. Introduction",
-    "section": "Strategy",
-    "text": "Strategy\n\nCHCC [1] is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.",
-    "crumbs": [
-      "1. Introduction"
+      "3. Facilities"
     ]
   },
   {
@@ -241,153 +114,6 @@
     "text": "Strategy\n\nCHCC [1] is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.",
     "crumbs": [
       "1. Basic Information"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html",
-    "href": "02_products_services.html",
-    "title": "2. Operations",
-    "section": "",
-    "text": "Community Hospitals of Central California’s NTEE Code: E300\nNoting that the Urban Institute’s National Center for Charitable Statistics Website [1] has a list of NTEE codes. E300 is not among them. However, E30 appears in the list with the following description:\nAmbulatory & Primary Health Care\n\nHealth centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#about",
-    "href": "02_products_services.html#about",
-    "title": "2. Operations",
-    "section": "About",
-    "text": "About\nThe About Page on the CHCC [2] (and NOT the Stockton based cmcenters) website says:\n\nWe operate four hospitals and a cancer institute, along with several long-term care, outpatient and other healthcare facilities. We’re led by local leaders and physicians focused on addressing the diverse needs and issues of Central California. As the leading healthcare provider in the central San Joaquin Valley, Community cares for more people in the region than any other. That means regardless of income level or social demographics, we provide top notch care to support the health and well-being of those in need. We partner with UCSF — one of the world’s top three medical schools and recruit physicians from around the country and world to bring you new specialties and treatments. By creating an environment of innovation and adding advanced medical technologies to our repertoire, we assure the care you receive from the Community Medical Centers healthcare network will continue to be second-to-none.\n\nThey also have a Community Benefit Page that explicitly says under the heading “Access to Healthcare”:\n\nGoal: Increase access to healthcare services through primary care, preventative care and specialty care services, including HIV/AIDS/STIs, for medically underserved residents",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#national-taxonomy-of-exempt-entities",
-    "href": "02_products_services.html#national-taxonomy-of-exempt-entities",
-    "title": "2. Operations",
-    "section": "",
-    "text": "Community Hospitals of Central California’s NTEE Code: E300\nNoting that the Urban Institute’s National Center for Charitable Statistics Website [1] has a list of NTEE codes. E300 is not among them. However, E30 appears in the list with the following description:\nAmbulatory & Primary Health Care\n\nHealth centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services for people whose care does not require confinement or a hospital stay. Use this code for types of outpatient facilities or services not specified below.",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#services",
-    "href": "02_products_services.html#services",
-    "title": "2. Operations",
-    "section": "Services",
-    "text": "Services\nThe Services Page on the CHCC [2] website has a long list of medical services they provide, each with its own dedicated page",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#facilities",
-    "href": "02_products_services.html#facilities",
-    "title": "2. Operations",
-    "section": "Facilities",
-    "text": "Facilities",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#workforce",
-    "href": "02_products_services.html#workforce",
-    "title": "2. Operations",
-    "section": "Workforce",
-    "text": "Workforce",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#suppliers",
-    "href": "02_products_services.html#suppliers",
-    "title": "2. Operations",
-    "section": "Suppliers",
-    "text": "Suppliers",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#procurement-distribution",
-    "href": "02_products_services.html#procurement-distribution",
-    "title": "2. Operations",
-    "section": "Procurement/ Distribution",
-    "text": "Procurement/ Distribution",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#customersclients",
-    "href": "02_products_services.html#customersclients",
-    "title": "2. Operations",
-    "section": "Customers/Clients",
-    "text": "Customers/Clients",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#utilities",
-    "href": "02_products_services.html#utilities",
-    "title": "2. Operations",
-    "section": "Utilities",
-    "text": "Utilities",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "02_products_services.html#quality-and-safety-measures",
-    "href": "02_products_services.html#quality-and-safety-measures",
-    "title": "2. Operations",
-    "section": "Quality and Safety Measures",
-    "text": "Quality and Safety Measures\n\n\n\n\n\n\nPotential Argument\n\n\n\nIt’s worth noting that their Quality & Safety Measures page gives 5 outcome measures by 3 locations at the hospital, state, and national level. As they present it, the Clovis facilities have worse outcomes than the others. Notably, these are all emergent or acute measures.",
-    "crumbs": [
-      "2. Products and Services"
-    ]
-  },
-  {
-    "objectID": "03_facilities.html#contact-info",
-    "href": "03_facilities.html#contact-info",
-    "title": "3. Facilities",
-    "section": "Contact Info",
-    "text": "Contact Info\nMedical Records myfaxmedrec@cmcenters.org Phone: (209) 546-3870 Fax: (209) 762-6808 Mail: P.O. Box 779, Stockton CA 95201\nAdministrative Offices info@cmcenters.org Phone: (209) 373-2800 Fax: (209) 373-2878 Mail: P.O. Box 779, Stockton CA 95201\nHuman Resources hr@cmcenters.org Phone: (209) 373-2800\nPatient Portal Support (209) 430-6222\nPatient Relations patientrelations@cmcenters.org",
-    "crumbs": [
-      "3. Facilities"
-    ]
-  },
-  {
-    "objectID": "03_facilities.html#map",
-    "href": "03_facilities.html#map",
-    "title": "3. Facilities",
-    "section": "Map",
-    "text": "Map",
-    "crumbs": [
-      "3. Facilities"
-    ]
-  },
-  {
-    "objectID": "03_facilities.html#form-990-property-values-schedule-d-part-vi",
-    "href": "03_facilities.html#form-990-property-values-schedule-d-part-vi",
-    "title": "03 Facilities",
-    "section": "Form 990 Property Values (Schedule D, Part VI)",
-    "text": "Form 990 Property Values (Schedule D, Part VI)\n\n\n\nfacilities_cost"
-  },
-  {
-    "objectID": "03_facilities.html#total-property-values",
-    "href": "03_facilities.html#total-property-values",
-    "title": "3. Facilities",
-    "section": "Total Property Values",
-    "text": "Total Property Values\nTaken from Schedule D Part VI of the 2023 Form 990:\n\n\n\nfacilities_cost",
-    "crumbs": [
-      "3. Facilities"
     ]
   }
 ]
