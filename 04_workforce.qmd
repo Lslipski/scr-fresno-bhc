@@ -1,0 +1,46 @@
+---
+title: "04_workforce"
+format: html
+---
+
+```{r}
+library(tidyverse)
+source(here::here('functions/load_functions.R'))
+load_functions()
+```
+
+## Workforce
+
+From the viewable 2023 Form 990 @viewable_990, the total number of employees for the
+2022 calendar year was **1,336**. See historical numbers below: 
+```{r}
+# pull 990 history
+resp_990 <- get_990(ein = "942437106") 
+```
+
+```{r}
+#| output: true
+resp_990$body$results %>% 
+  select(id, TAXYEAR, TOTAEMPLCNTN, FILERNAME1, FILERUS1, FILERUSCITY, FILERUSSTATE, 
+         FILERUSZIP, FORMATIONORM, GOVERNGRANTS, INFOTECHTOTA, MANAGENEEXPE, 
+         ININTORECOOL, INTERETOTALO, LEGAFEESTOTA, NBREVOTIMEMB, OCCUPATOTALO, 
+         OFFIEXPETOTA, ORGANIZATION3, OTHEMPBENTOT, OTHSALWAGTOT, PAYRTAXETOTA, 
+         PENPLACONTOT, PROGSERVEXPE, TLNAEOY, TNAFBEOY, TOTREVCURYEA) %>% 
+  rename_990() %>% 
+  select(id,
+         tax_year,
+         num_employees) %>% 
+  arrange(desc(tax_year)) %>% 
+  DT::datatable(extensions = 'Buttons',
+                options = list(
+                  paging = TRUE,
+                  searching = TRUE,
+                  fixedColumns = TRUE,
+                  autoWidth = TRUE,
+                  ordering = TRUE,
+                  dom = 'ftBlp',
+                  buttons = c('copy', 'csv')
+                  ),
+                class = "display")
+```
+
