@@ -13,6 +13,8 @@ website:
         href: 02_products_services.qmd
       - text: "3. Facilities"
         href: 03_facilities.qmd
+      - text: "4. Workforce"
+        href: 04_workforce.qmd
       - text: "Bibliography"
         href: 99_bibliography.qmd
 
