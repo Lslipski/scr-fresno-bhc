@@ -1,5 +1,5 @@
 ---
-title: "04_workforce"
+title: "4. Workforce"
 format: html
 ---
 
@@ -27,8 +27,7 @@ resp_990$body$results %>%
          OFFIEXPETOTA, ORGANIZATION3, OTHEMPBENTOT, OTHSALWAGTOT, PAYRTAXETOTA, 
          PENPLACONTOT, PROGSERVEXPE, TLNAEOY, TNAFBEOY, TOTREVCURYEA) %>% 
   rename_990() %>% 
-  select(id,
-         tax_year,
+  select(tax_year,
          num_employees) %>% 
   arrange(desc(tax_year)) %>% 
   DT::datatable(extensions = 'Buttons',
