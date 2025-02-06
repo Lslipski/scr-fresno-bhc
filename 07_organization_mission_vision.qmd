@@ -1,0 +1,15 @@
+---
+title: "7. Organization Mission and Vision"
+format: html
+---
+
+7.1 Summarize the mission and the vision of the nonprofit.
+7.2 Does this involve a major departure from its current activities? How? Why?
+
+Item 1 of Section 1 of Form 990 provides a summary of “…the organization’s mission or most significant activities.”
+
+Part III of the 990 provides additional information.  On Line 2 the filer is asked if they made any significant program changes since filing their last 990. If so, they are required to fill out Schedule O.  Based on Line 3 they must report similar information on operations that ceased.   In Section 4 they must provide detailed information on the three largest program services.
+
+Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.
+
+The web site may also offer additional information on the mission and direction of the nonprofit. A general news search may also provide interviews with executives or other news that may assist in identifying the organization’s mission and future directions.

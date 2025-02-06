@@ -1,0 +1,13 @@
+---
+title: "12. Parent Organization"
+format: html
+---
+
+12.1 Is the organization a par­ent organization or a branch of a larger organization?
+12.2 Do resources flow from the parent organization to the local organization or visa-versa?
+
+Nonprofits may be single freestanding organizations or part of a larger organization.  If the parent organization is responsible for the finances of the local organizations, the local organizations are not required to file Form 990. Even if they are financially independent, some funds may flow between them. Parent organizations may contribute to local organizations or fundraising from local organizations may flow to the parent organization.
+
+Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.
+
+This information may also be available on the organization’s web site.

@@ -1,0 +1,9 @@
+---
+title: "09_funders"
+format: html
+---
+
+9.1 Does the organization receive core funding from the government or other sources?
+9.2 What are the dollar amounts of these funds and what proportion of the organization’s income do they comprise?
+
+Many nonprofits receive governmental funds or other core funding from organizations including the U.S. government.  Part VIII Statement of Revenue on Form 990 lists government grants and other contributions. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.

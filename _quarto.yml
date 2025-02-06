@@ -15,6 +15,46 @@ website:
         href: 03_facilities.qmd
       - text: "4. Workforce"
         href: 04_workforce.qmd
+      - text: "5. Financial Information"
+        href: 05_financial_information.qmd
+      - text: "6. Organizational History"
+        href: 06_organizational_history.qmd
+      - text: "7. Organizational Mission and Vision"
+        href: 07_organization_mission_vision.qmd
+      - text: "8. Management"
+        href: 08_management.qmd
+      - text: "9. Funders"
+        href: 09_funders.qmd
+      - text: "10. Board of Directors"
+        href: 10_board_of_directors.qmd
+      - text: "11. Donors"
+        href: 11_donors.qmd
+      - text: "12. Parent Organization"
+        href: 12_parent_organization.qmd
+      - text: "13. Subsidiaries"
+        href: 13_subsidiaries.qmd
+      - text: "14. Sector and Industry"
+        href: 14_sector_industry.qmd
+      - text: "15. Competitors"
+        href: 15_competitors.qmd
+      - text: "16. Supplies and Services"
+        href: 16_supplies_services.qmd
+      - text: "17. Transportation, Distribution, and Dissemination"
+        href: 17_transportation_distribution_dissemination.qmd
+      - text: "18. Business Services"
+        href: 18_business_services.qmd
+      - text: "19. Customers and Clients"
+        href: 19_customers_clients.qmd
+      - text: "20. Safety and Health"
+        href: 20_safety_health.qmd
+      - text: "21. Environmental"
+        href: 21_environmental.qmd
+      - text: "22. Other Regulatory and Legal"
+        href: 22_other_regulatory_legal.qmd
+      - text: "23. Community"
+        href: 23_community.qmd
+      - text: "24. Political"
+        href: 24_political.qmd
       - text: "Bibliography"
         href: 99_bibliography.qmd
 

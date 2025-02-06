@@ -1,0 +1,12 @@
+---
+title: "11. Donors"
+format: html
+---
+
+11.1 List the amount of donations.
+11.2 What percentage of the organization’s total income are donations?
+11.3 Can you identify any major donors?
+
+Many nonprofits receive donations from individuals and organizations.  Part VIII Statement of Revenue on Form 990 lists donations and other contributions. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.
+
+While nonprofits do not have to disclose the names of donors on their Form 990, key donations may sometimes be listed on an organization’s web site or might be revealed in a general news search.

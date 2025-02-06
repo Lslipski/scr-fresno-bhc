@@ -1,0 +1,20 @@
+---
+title: "5. Financial Information"
+format: html
+---
+
+
+5.1 Statement of Revenue
+5.2 Statement of Function Expenses
+5.3 Balance Sheet
+5.4 Reconciliation of Net Assets
+5.5 Audited Financial Statement (if available)
+5.6 Key Financial Ratios
+
+Form 990 contains basic financial information. In Part VII, the Statement of Revenue, Part IX, Statement of Functional Expenses, Part X, Balance Sheet, Part XI Reconciliation of Net Assets, and Part XII, Financial Statements and Reporting.  Some states require that nonprofits also include an audited financial statement as part of their 990, which is a more comprehensive financial document.
+
+Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.
+
+In addition to reviewing the financial statements, financial analysts utilize financial ratios. This allows them to track the performance of a nonprofit over time and to compare it to others operating in the same sector or industry.  If you have no experience reviewing nonprofit financials, go to our Nonprofit Accounting for Union Researchers.
+
+A number of organizations rate nonprofits using basic financial information.  This includes CharityWatch, Charity Navigator and the Better Business Bureau’s Wise Giving Alliance.

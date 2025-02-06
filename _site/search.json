@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "23_community.html",
+    "href": "23_community.html",
+    "title": "23. Community",
+    "section": "",
+    "text": "23.1 Describe the organization’s com­mu­nity rela­tions. 23.2 Are there com­mu­nity issues with the organization and its oper­a­tions? 23.3 List any iden­ti­fi­able com­mu­nity orga­ni­za­tions that could be enlisted as allies. 23.4 What are the major unions and cen­tral labor bod­ies in the com­mu­ni­ties where both the com­pany and the par­ent com­pany are located (both here and abroad), and how could they be used as allies in the campaign?\nWork­ers are the best source for com­mu­nity issues. A gen­eral news search and a search of social media may pro­vide addi­tional information. Some information may also be available on the organization’s web site.\nThe AFL-CIO and Change to Win pro­vide links to labor orga­ni­za­tions. Jobs with Jus­tice will put you in touch with local labor activists.\nMapping the Common Good provides a map of union contract expirations across the United States, which can help organizers coordinate a campaign with community groups.",
+    "crumbs": [
+      "23. Community"
+    ]
+  },
+  {
     "objectID": "02_products_services.html",
     "href": "02_products_services.html",
     "title": "2. Operations",
@@ -50,33 +60,70 @@
     ]
   },
   {
-    "objectID": "01_basic_information.html",
-    "href": "01_basic_information.html",
-    "title": "1. Basic Information",
+    "objectID": "99_bibliography.html",
+    "href": "99_bibliography.html",
+    "title": "Bibliography",
     "section": "",
-    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See the Facilities Page for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "text": "References\n\n1. (2025) Community hospitals of central california\n\n\n2. (2025) Community medical centers\n\n\n3. (2025) Giving tuesday data commons 990 datasets API\n\n\n4. (2025) Urban institute’s national center for charitable statistics\n\n\n5. Juravich T (2025) Beating global capital: A framework and method for union strategic corporate research and campaigns\n\n\n6. (2025) Community medical centers, inc. Form 990\n\n\n7. (2025) Cultiva la salud vs. Community hospitals of central california\n\n\n8. (2025) Cultiva la salud",
     "crumbs": [
-      "1. Basic Information"
+      "Bibliography"
     ]
   },
   {
-    "objectID": "01_basic_information.html#basic-information",
-    "href": "01_basic_information.html#basic-information",
-    "title": "1. Basic Information",
+    "objectID": "12_parent_organization.html",
+    "href": "12_parent_organization.html",
+    "title": "12. Parent Organization",
     "section": "",
-    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See the Facilities Page for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "text": "12.1 Is the organization a par­ent organization or a branch of a larger organization? 12.2 Do resources flow from the parent organization to the local organization or visa-versa?\nNonprofits may be single freestanding organizations or part of a larger organization. If the parent organization is responsible for the finances of the local organizations, the local organizations are not required to file Form 990. Even if they are financially independent, some funds may flow between them. Parent organizations may contribute to local organizations or fundraising from local organizations may flow to the parent organization.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nThis information may also be available on the organization’s web site.",
     "crumbs": [
-      "1. Basic Information"
+      "12. Parent Organization"
     ]
   },
   {
-    "objectID": "01_basic_information.html#strategy",
-    "href": "01_basic_information.html#strategy",
-    "title": "1. Basic Information",
-    "section": "Strategy",
-    "text": "Strategy\n\nCHCC [1] is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.",
+    "objectID": "06_organizational_history.html",
+    "href": "06_organizational_history.html",
+    "title": "6. Organizational History",
+    "section": "",
+    "text": "6.1 When and how did the nonprofit start? 6.2 Have its structure and operations remained the same? 6.3 Summarize key events in its recent history.\nThe company web site is an excellent place to start investigating the organization’s history. A general news search may be helpful for more recent history. For older materials use Google News Archive or the Wayback Machine, which allows you to look at historical web sites back to 1996.",
     "crumbs": [
-      "1. Basic Information"
+      "6. Organizational History"
+    ]
+  },
+  {
+    "objectID": "13_subsidiaries.html",
+    "href": "13_subsidiaries.html",
+    "title": "13. Subsidiaries",
+    "section": "",
+    "text": "13.1 List sub­sidiary organizations. 13.2 Do funds flow between the parent and local organizations?\nNonprofits may be single freestanding organizations or part of a larger organization. If the parent organization is responsible for the finances of the local organizations, the local organizations are not required to file Form 990. Even if they are financially independent, some funds may flow between them. Parent organizations may contribute to local organizations or fundraising from local organizations may flow to the parent organization.\nPart VIII Statement of Revenue on Form 990 lists donations and other contributions where it may be possible to ascertain this exchange of funds.\nLines 34-37 of Part VI of Form 990, along with Schedule R, provide information on if the nonprofit is financially involved with a related organization.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nThis information may also be available on the organization’s web site.",
+    "crumbs": [
+      "13. Subsidiaries"
+    ]
+  },
+  {
+    "objectID": "16_supplies_services.html",
+    "href": "16_supplies_services.html",
+    "title": "16. Supplies and Services",
+    "section": "",
+    "text": "16.1 Who are the major sup­pli­ers? 16.2 Are mul­ti­ple sup­pli­ers used, or do sin­gle sup­pli­ers pro­vide products/services?\nWork­ers are the best source for iden­ti­fy­ing mate­ri­als and sup­pli­ers. Some information on suppliers may be available on Form 990. Section B of Part VII of the 990 lists the five highest compensated independent contractors. In some instances this may include a major supplier of goods or services. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nGeneral infor­ma­tion on sup­pli­ers can be found at the Thomas Reg­is­ter.",
+    "crumbs": [
+      "16. Supplies and Services"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "This report provides strategic corporate research regarding Community Hospitals of Central California (CHCC) [1] also known as Community Medical Centers [2]. Cultiva la Salud [3] has filed a petition for writ of mandate and complaint [4] against CHCC alleging that:\n\nRespondents have failed to spend Supplemental Medi-Cal funds as required by statute—to improve access to care and the quality of that care for the Black and Latino low-income patients reliant on Fresno CRMC for their medical care—instead spending the funding to enhance Respondents’ suburban facility, Clovis CMC, which serves a much wealthier, whiter, and healthier population, and far fewer Medi-Cal beneficiaries.\n\nThis document provides background information on CHCC including details on its services, facilities, workforce, finances, company history, and other topics that could be of use in creating a strategic campaign to force CHCC to meet the needs of the Fresno CRMC community.\nThe framework for this report is taken from the strategic corporate research guide website. And its chapters correspond to the 24 question model described in Juravich’s “Beating Global Capital” [5].\n\n\n\n\nReferences\n\n1. (2025) Community hospitals of central california\n\n\n2. (2025) Community medical centers\n\n\n3. (2025) Cultiva la salud\n\n\n4. (2025) Cultiva la salud vs. Community hospitals of central california\n\n\n5. Juravich T (2025) Beating global capital: A framework and method for union strategic corporate research and campaigns"
+  },
+  {
+    "objectID": "08_management.html",
+    "href": "08_management.html",
+    "title": "8. Management",
+    "section": "",
+    "text": "8.1 List top management. 8.2 Summarize any recent management changes. 8.3 Provide management biographies. 8.4 Compile management compensation. 8.5 What other corporations are top managers associated with? 8.6 List any other news items about management (social clubs, political activity). 8.7 List management consultant/union buster.\nThe organization’s web site is the best way to find out information about nonprofit managers. While Form 990 does not provide general information on managers, both Part VII and Schedule O report the compensation of officers, directors, trustees, key employees, and the highest compensated employees.\nNote that on Line 25a of Part IV of Form 990 requires the filer to indicate if the organization paid an Excess Benefit to any employee. This would be any salary or benefits package significantly higher than the compensation received by officers of similar organizations. This excess benefit is taxable and more detail is provided in Schedule L.\nSection A of Part VI of Form 990 provides detailed information on the Governing Body and Management. This includes information on the number of voting members, whether there are business or family relationships between the board and management and a variety of questions on how decisions are made may tell you a great deal about how the nonprofit is managed.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nUse a gen­eral news search and social media to find out more about management’s cur­rent activities.\nWhen doing news searches, make sure to go to local news­pa­pers and media out­lets in the city in which the firm is located. Some of this infor­ma­tion many not show up in a gen­eral search.\nFirms and top man­age­ment are increasingly using a vari­ety of social media and it is becom­ing an impor­tant research tool. LinkedIn is a pop­u­lar busi­ness social-networking site. You need to be a mem­ber to search (mem­ber­ship is free) and you can search by com­pa­nies as well as indi­vid­u­als. Face­book is becoming very pop­u­lar with indi­vid­u­als and firms, and can be a great source of infor­ma­tion. You need to be a mem­ber but mem­ber­ship is free.\nYou can use the Union Busters Alerts database to find out if a nonprofit organization has hired a management consultant/union buster.",
+    "crumbs": [
+      "8. Management"
     ]
   },
   {
@@ -110,6 +157,66 @@
     ]
   },
   {
+    "objectID": "05_financial_information.html",
+    "href": "05_financial_information.html",
+    "title": "5. Financial Information",
+    "section": "",
+    "text": "5.1 Statement of Revenue 5.2 Statement of Function Expenses 5.3 Balance Sheet 5.4 Reconciliation of Net Assets 5.5 Audited Financial Statement (if available) 5.6 Key Financial Ratios\nForm 990 contains basic financial information. In Part VII, the Statement of Revenue, Part IX, Statement of Functional Expenses, Part X, Balance Sheet, Part XI Reconciliation of Net Assets, and Part XII, Financial Statements and Reporting. Some states require that nonprofits also include an audited financial statement as part of their 990, which is a more comprehensive financial document.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nIn addition to reviewing the financial statements, financial analysts utilize financial ratios. This allows them to track the performance of a nonprofit over time and to compare it to others operating in the same sector or industry. If you have no experience reviewing nonprofit financials, go to our Nonprofit Accounting for Union Researchers.\nA number of organizations rate nonprofits using basic financial information. This includes CharityWatch, Charity Navigator and the Better Business Bureau’s Wise Giving Alliance.",
+    "crumbs": [
+      "5. Financial Information"
+    ]
+  },
+  {
+    "objectID": "22_other_regulatory_legal.html",
+    "href": "22_other_regulatory_legal.html",
+    "title": "22. Other Regulatory and Legal",
+    "section": "",
+    "text": "22.1 Are there other spe­cific reg­u­la­tory agen­cies that gov­ern this com­pany (such as health care reg­u­la­tions in hos­pi­tals and nurs­ing homes)? 22.2 List any inci­dents or vio­la­tions. 22.3 List any legal actions taken or pend­ing against the com­pany. 22.4 List any NLRB charges or findings.\nUse indus­try pub­li­ca­tions to iden­tify if there are reg­u­la­tory agen­cies that gov­ern your tar­get employ­er. Work­ers may also know about spe­cific reg­u­la­tors. A gen­eral news search may also pro­vide insights.\nUnderwriters Laboratories (UL) develop many industry standards in the U.S.\nThe National Labor Rela­tions Board (NLRB) main­tains a data­base where you can inves­ti­gate recent NLRB activ­ity. It is a free site but you must first reg­is­ter. You can search by com­pany to iden­tify if there has been recent NLRB activ­ity at your firm.\nThe Stan­ford Law School’s Secu­ri­ties Class Action Clear­ing House pro­vides a vari­ety of infor­ma­tion on firms gath­ered under the Pri­vate Secu­ri­ties Lit­i­ga­tion Reform Act.\nPaid Resources (Requires Subscription)\nYou can search for addi­tional legal infor­ma­tion on NewsBank.",
+    "crumbs": [
+      "22. Other Regulatory and Legal"
+    ]
+  },
+  {
+    "objectID": "21_environmental.html",
+    "href": "21_environmental.html",
+    "title": "21. Environmental",
+    "section": "",
+    "text": "21.1 List any envi­ron­men­tal prob­lems or actions taken. 21.2 Do any pat­terns emerge in terms of these events? 21.3 List any envi­ron­men­tal orga­ni­za­tions that have been mon­i­tor­ing or tak­ing action against the com­pany. Find out more about them.\nThe Environmental Protection Agency (EPA) provides information on environmental regulation and compliance. You can search their Enforcement & Compliance History Online (ECHO) by both employer and location.\nThe Right to Know Network is a clearinghouse for a number of databases from the U.S. Environmental Protection Agency including: Toxic Release (TRI); Spills and Accidents (ERNS); Risk Management (RMP); Hazardous Waste (BRS & RCRIS); and Superfund (CERCLIS).\nThe Environmental Defense Fund also provides selected environmental information on individual firms.",
+    "crumbs": [
+      "21. Environmental"
+    ]
+  },
+  {
+    "objectID": "09_funders.html",
+    "href": "09_funders.html",
+    "title": "09_funders",
+    "section": "",
+    "text": "9.1 Does the organization receive core funding from the government or other sources? 9.2 What are the dollar amounts of these funds and what proportion of the organization’s income do they comprise?\nMany nonprofits receive governmental funds or other core funding from organizations including the U.S. government. Part VIII Statement of Revenue on Form 990 lists government grants and other contributions. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.",
+    "crumbs": [
+      "9. Funders"
+    ]
+  },
+  {
+    "objectID": "20_safety_health.html",
+    "href": "20_safety_health.html",
+    "title": "20. Safety and Health",
+    "section": "",
+    "text": "20.1 Cre­ate a com­pre­hen­sive list of safety or health actions taken against the organization. 20.2 Can you iden­tify any pat­terns in OSHA activ­ity? 20.3 What are the major health and safety problems?\nNonprofits as nongovernmental organization are covered by OSHA. Begin at the OSHA web site. Go to “Data and Sta­tis­tics” and select “estab­lish­ment search” to search for your tar­get firm. You can also search by indus­try to get a broader sense of what is hap­pen­ing. If your com­pany has made recent acqui­si­tions, you will need to search under that name as well.\nNIOSH also pro­vides more gen­eral infor­ma­tion and you can search by industry.\nA gen­eral news search may also sup­ple­ment what you find on the OSHA web site. Seri­ous acci­dents or injuries are news­wor­thy, espe­cially in local papers. You can also use news infor­ma­tion to make sense of the more for­mal OSHA data.",
+    "crumbs": [
+      "20. Safety and Health"
+    ]
+  },
+  {
+    "objectID": "24_political.html",
+    "href": "24_political.html",
+    "title": "24. Political",
+    "section": "",
+    "text": "24.1 How is the com­pany con­nected polit­i­cally on the local, state, and national level? 24.2 List polit­i­cal con­tri­bu­tions. 24.3 List any top man­age­ment or board mem­bers who are involved in political activity or who in the past held polit­i­cal positions. 24.4 What are the lobbying activities?\nUnder IRS rules 501(c ) 3 organizations may not engage in partisan politics. They may however be involved in non-partisan politics. They can also be directly involved in lobbying, allocating up to 20% of the first $500,000 of their budget, and more than $1 million annually. Schedule C of the Form 990 provides a great deal of information on the organization’s lobbying activities. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nOther 501(c ) organizations may be engaged in partisan political activities. The Cen­ter for Respon­sive Pol­i­tics pro­vides com­pre­hen­sive infor­ma­tion on polit­i­cal con­tri­bu­tions at all lev­els of the fed­eral gov­ern­ment. You can search by both employ­ers and indi­vid­u­als. Con­sult state web sites for the avail­abil­ity of sim­i­lar infor­ma­tion at the state level.\nFol­low the Money, the National Insti­tute on Money in State Politics’ web site, pro­vides com­pre­hen­sive infor­ma­tion on state pol­i­tics. The Fed­eral Elec­tion Com­mis­sion pro­vides basic infor­ma­tion on polit­i­cal donors, as well as polit­i­cal action committees.",
+    "crumbs": [
+      "24. Political"
+    ]
+  },
+  {
     "objectID": "04_workforce.html",
     "href": "04_workforce.html",
     "title": "4. Workforce",
@@ -130,20 +237,113 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Executive Summary",
+    "objectID": "15_competitors.html",
+    "href": "15_competitors.html",
+    "title": "15. Competitors",
     "section": "",
-    "text": "This report provides strategic corporate research regarding Community Hospitals of Central California (CHCC) [1] also known as Community Medical Centers [2]. Cultiva la Salud [3] has filed a petition for writ of mandate and complaint [4] against CHCC alleging that:\n\nRespondents have failed to spend Supplemental Medi-Cal funds as required by statute—to improve access to care and the quality of that care for the Black and Latino low-income patients reliant on Fresno CRMC for their medical care—instead spending the funding to enhance Respondents’ suburban facility, Clovis CMC, which serves a much wealthier, whiter, and healthier population, and far fewer Medi-Cal beneficiaries.\n\nThis document provides background information on CHCC including details on its services, facilities, workforce, finances, company history, and other topics that could be of use in creating a strategic campaign to force CHCC to meet the needs of the Fresno CRMC community.\nThe framework for this report is taken from the strategic corporate research guide website. And its chapters correspond to the 24 question model described in Juravich’s “Beating Global Capital” [5].\n\n\n\n\nReferences\n\n1. (2025) Community hospitals of central california\n\n\n2. (2025) Community medical centers\n\n\n3. (2025) Cultiva la salud\n\n\n4. (2025) Cultiva la salud vs. Community hospitals of central california\n\n\n5. Juravich T (2025) Beating global capital: A framework and method for union strategic corporate research and campaigns"
+    "text": "15.1 Iden­tify the top three com­peti­tors. 15.2 To what degree are these other employ­ers true com­peti­tors? Do they actu­ally sup­ply the same type of ser­vice? 15.3 What are the per­cent­ages of the sector or indus­try that your tar­get firm and each of its major com­peti­tors con­trol? 15.4 Is one of these firms emerg­ing as a leader?\nIt is important to understand your target organization in terms of the competitive landscape. Some nonprofits provide unique services, while others operate in sectors where there is competition from other nonprofits and for profit firms. It may be difficult to find information on competitors as it is not contained on Form 990 or it is unlikely that it will appear on the organization’s web site. Industrial/sectoral publications may provide information as well as a general news search.\nWhen eval­u­at­ing com­peti­tors, it is impor­tant to iden­tify if they are true com­peti­tors. Do they actu­ally offer similar services and have sim­i­lar clients or customers?",
+    "crumbs": [
+      "15. Competitors"
+    ]
   },
   {
-    "objectID": "99_bibliography.html",
-    "href": "99_bibliography.html",
-    "title": "Bibliography",
+    "objectID": "11_donors.html",
+    "href": "11_donors.html",
+    "title": "11. Donors",
     "section": "",
-    "text": "References\n\n1. (2025) Community hospitals of central california\n\n\n2. (2025) Community medical centers\n\n\n3. (2025) Giving tuesday data commons 990 datasets API\n\n\n4. (2025) Urban institute’s national center for charitable statistics\n\n\n5. Juravich T (2025) Beating global capital: A framework and method for union strategic corporate research and campaigns\n\n\n6. (2025) Community medical centers, inc. Form 990\n\n\n7. (2025) Cultiva la salud vs. Community hospitals of central california\n\n\n8. (2025) Cultiva la salud",
+    "text": "11.1 List the amount of donations. 11.2 What percentage of the organization’s total income are donations? 11.3 Can you identify any major donors?\nMany nonprofits receive donations from individuals and organizations. Part VIII Statement of Revenue on Form 990 lists donations and other contributions. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nWhile nonprofits do not have to disclose the names of donors on their Form 990, key donations may sometimes be listed on an organization’s web site or might be revealed in a general news search.",
     "crumbs": [
-      "Bibliography"
+      "11. Donors"
+    ]
+  },
+  {
+    "objectID": "17_transportation_distribution_dissemination.html",
+    "href": "17_transportation_distribution_dissemination.html",
+    "title": "17. Transportation, Distribution, and Dissemination",
+    "section": "",
+    "text": "17.1 How do sup­plies, prod­ucts, ser­vices, or clients leave the facil­i­ties? 17.2 Are any of these forms of transportation/distribution/dissemination unionized?\nWork­ers are the best source for iden­ti­fy­ing forms of trans­porta­tion, dis­tri­b­u­tion and dissemination. Some information on transportation may be available on Form 990. Section B of Part VII of the 990 lists the five highest compensated independent contractors. In some instances this may include a major supplier of goods or services. While Part IX the Statement of Function Expenses does not list specific suppliers, it does provide a general list of expenses, which may include transportation. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nYou may find infor­ma­tion on the organization’s truck fleet, as well as their safety record, at the Fed­eral Motor Car­rier Safety Admin­is­tra­tion. The National Trans­porta­tion Safety Board also com­piles acci­dent infor­ma­tion on all types of transportation.",
+    "crumbs": [
+      "17. Transportation, Distribution, and Dissemination"
+    ]
+  },
+  {
+    "objectID": "18_business_services.html",
+    "href": "18_business_services.html",
+    "title": "18. Business Services",
+    "section": "",
+    "text": "18.1 List the pri­mary business services uti­lized. 18.2 List firms that pro­vide these services. 18.3 Are any of the providers unionized?\nWork­ers are the best source for iden­ti­fy­ing the business services that your target organization utilizes. Some information on suppliers may be available on Form 990. Section B of Part VII of the 990 lists the five highest compensated independent contractors. In some instances this may include a major supplier of goods or services. Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.",
+    "crumbs": [
+      "18. Business Services"
+    ]
+  },
+  {
+    "objectID": "10_board_of_directors.html",
+    "href": "10_board_of_directors.html",
+    "title": "10. Board of Directors",
+    "section": "",
+    "text": "10.1 List Board mem­bers and their compensation. 10.2 Sum­ma­rize any recent Board changes. 10.3 Pro­vide biogra­phies of Board mem­bers. 10.4 What other cor­po­ra­tions are Board mem­bers asso­ci­ated with? Are they impor­tant? Why? 10.5 List any other news items about Board mem­bers (social clubs, polit­i­cal activ­ity). 10.6 Sum­ma­rize which Board mem­bers are most vulnerable.\nThe organization’s web site is likely the best way to fund out information about its directors/board members. While Form 990 does not provide general information on managers, both Part VII and Schedule O report the compensation of officers, directors, trustees, key employees, and the highest compensated employees.\nSection A of Part VI of Form 990 provides detailed information on the Governing Body and Management. This includes information on the number of voting members, whether there are business or family relationships between the board and management and a variety of questions on how decisions are made may tell you a great deal about the role of the board in the organization.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nBeyond this basic infor­ma­tion, use a gen­eral news search and social media to gather more detailed infor­ma­tion on board members.",
+    "crumbs": [
+      "10. Board of Directors"
+    ]
+  },
+  {
+    "objectID": "07_organization_mission_vision.html",
+    "href": "07_organization_mission_vision.html",
+    "title": "7. Organization Mission and Vision",
+    "section": "",
+    "text": "7.1 Summarize the mission and the vision of the nonprofit. 7.2 Does this involve a major departure from its current activities? How? Why?\nItem 1 of Section 1 of Form 990 provides a summary of “…the organization’s mission or most significant activities.”\nPart III of the 990 provides additional information. On Line 2 the filer is asked if they made any significant program changes since filing their last 990. If so, they are required to fill out Schedule O. Based on Line 3 they must report similar information on operations that ceased. In Section 4 they must provide detailed information on the three largest program services.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nThe web site may also offer additional information on the mission and direction of the nonprofit. A general news search may also provide interviews with executives or other news that may assist in identifying the organization’s mission and future directions.",
+    "crumbs": [
+      "7. Organizational Mission and Vision"
+    ]
+  },
+  {
+    "objectID": "01_basic_information.html",
+    "href": "01_basic_information.html",
+    "title": "1. Basic Information",
+    "section": "",
+    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See the Facilities Page for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "crumbs": [
+      "1. Basic Information"
+    ]
+  },
+  {
+    "objectID": "01_basic_information.html#basic-information",
+    "href": "01_basic_information.html#basic-information",
+    "title": "1. Basic Information",
+    "section": "",
+    "text": "EIN: 942437106\nWhen Googling CHCC [1], the website that comes up first is “Community Medical Centers” [1] and not “Community Hospitals of Central California”.\nCHCC has a sort of confusing website setup. First, they have a website called communitymedical.org [1]. This site appears to be dedicated to the 4 Fresno and Clovis medical centers (listed below). However, they have a second website called cmcenters.org [2], which has a much longer list of medical centers and administrative buildings that are primarily near Stockton. The Locations Page on the second site [2] lists all of the Stockton area locations. See the Facilities Page for a comprehensive list and map of all facilities. Also on their 2023 Form 990, they list their website as www.communitymedicalcenters.org, which redirects to the Stockton page [2]\n\nClovis Community Medical Center\n\n2755 Herndon Avenue\nClovis, CA 93611\n(559) 324-4000\n\nCommunity Regional Medical Center\n\n2823 Fresno Street\nFresno, CA 93721\n(559) 459-6000\n\nFresno Heart & Surgical Hospital\n\n15 E. Audubon Drive\nFresno, CA 93720\n(559) 433-8000\n\nCommunity Behavioral Health Center\n\n7171 N. Cedar Avenue\nFresno, CA 93720\n(559) 449-8000\n\n\n\n\nA viewable version of Form 990 for CHCC [1] can be seen at [3].\nBelow is basic information pulled from Giving Tuesday Data Commons [4]. For variable definitions see the data dictionary below Section 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table gives definitions for all of the variables in Section 1.1.1.",
+    "crumbs": [
+      "1. Basic Information"
+    ]
+  },
+  {
+    "objectID": "01_basic_information.html#strategy",
+    "href": "01_basic_information.html#strategy",
+    "title": "1. Basic Information",
+    "section": "Strategy",
+    "text": "Strategy\n\nCHCC [1] is a non-profit primarily based in the Stockton area, with only 4 medical centers near Fresno. It could be a point of agitation to the community of Fresno that an out-of-town organization is the one that owns their hospitals.",
+    "crumbs": [
+      "1. Basic Information"
+    ]
+  },
+  {
+    "objectID": "14_sector_industry.html",
+    "href": "14_sector_industry.html",
+    "title": "14. Sector and Industry",
+    "section": "",
+    "text": "14.1 What is the core sector? 14.2 What is the name of the sector pub­li­ca­tion? 14.3 What are the cur­rent trends in the sector?\nThe NTEE you iden­ti­fied in Ques­tion 2 will allow you to iden­tify the sector (or sectors) in which the organization is oper­at­ing. The best way to learn about a sector is to con­sult sector pub­li­ca­tions, if they are available. You can find these using a gen­eral news search or by con­sult­ing Web Wire. Indus­try pub­li­ca­tions often pro­vide a great deal of infor­ma­tion about cur­rent trends in the indus­try, as well as com­par­a­tive data on the industry’s top players.\nSometimes nonprofits operate in a sector or industry that also includes private sector firms. In these cases you can go to Yahoo Finance, and use the “indus­try” tab to learn more about the indus­try in which your firm is located.\nPaid Resources (Requires Subscription)\nCFRA’s MarketScope Advisor provides reports on selected industries and individual firms. IBIS World provide slightly less comprehensive reports but on a much wider variety of industries. Business Insights: Essentials also provides basic information on industries, and Mintel looks specifically at retailing, healthcare, technology and tourism.",
+    "crumbs": [
+      "14. Sector and Industry"
+    ]
+  },
+  {
+    "objectID": "19_customers_clients.html",
+    "href": "19_customers_clients.html",
+    "title": "19. Customers and Clients",
+    "section": "",
+    "text": "19.1 Who are the prin­ci­pal cus­tomers or clients? Pro­vide demo­graph­ics. 19.2 If indi­vid­u­als, pro­vide as much infor­ma­tion as pos­si­ble about top customers/clients or demo­graph­ics of key customers/clients.\nWork­ers are the best source for iden­ti­fy­ing cus­tomers and clients. Some infor­ma­tion may be found on the organization’s web site. You might also learn about cus­tomers and clients from sector/indus­try publications. Refer to Ques­tion 14.\nPaid Resources (Requires Subscription)\nWISERTrade provides trade statistics on countries around the world, which may help you track down customers and clients.",
+    "crumbs": [
+      "19. Customers and Clients"
     ]
   }
 ]
