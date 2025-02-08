@@ -1,7 +1,6 @@
 ---
 title: "3. Facilities"
 format: html
-number-sections: true
 ---
 
 ```{r}
