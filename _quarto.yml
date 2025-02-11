@@ -4,7 +4,9 @@ project:
 website:
   title: "Fresno Building Healthy Communities"
   description: "Strategic Corporate Research"
+  favicon: "data/hexsticker_24_q_model.png"
   sidebar: 
+    logo: "data/hexsticker_24_q_model.png"
     style: "floating"
     contents: 
       - text: "1. Basic Information" 
