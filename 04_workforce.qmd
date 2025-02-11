@@ -9,7 +9,7 @@ source(here::here('functions/load_functions.R'))
 load_functions()
 ```
 
-## Workforce
+## Employees
 
 From the viewable 2023 Form 990 @viewable_990, the total number of employees for the
 2022 calendar year was **1,336**. See historical numbers below: 
@@ -43,3 +43,20 @@ resp_990$body$results %>%
                 class = "display")
 ```
 
+## NLRB Activity
+
+Note that I've removed the Participants field from the below table because it is too long. If complete participant information is desired, the details of any case can be found using the Case Number in the NLRB Case Search @nlrb_case_search.
+
+```{r}
+df_nlrb <- bind_rows(
+  read_csv(here::here("data/nlrb_cases_clovis_cmc.csv")),
+  read_csv(here::here("data/nlrb_cases_fresno_cmc.csv"))
+)
+```
+
+```{r}
+#| output: true
+df_nlrb %>% 
+  select(-Participants) %>% 
+  table_standard()
+```
