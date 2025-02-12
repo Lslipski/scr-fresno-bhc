@@ -47,6 +47,15 @@ resp_990$body$results %>%
 
 Note that I've removed the Participants field from the below table because it is too long. If complete participant information is desired, the details of any case can be found using the Case Number in the NLRB Case Search @nlrb_case_search.
 
+However, unions mentioned include:
+
+  * SEIU UNITED HEALTHCARE WORKERS - WEST, Stockton, CA
+  * SEIU UNITED HEALTHCARE WORKERS - WEST, Fresno, CA
+  * SERVICE EMPLOYEES INTERNATIONAL UNION, Washington, DC
+  * CALIFORNIA NURSES ASSOCIATION NATIONAL NURSES ORGANIZING COMMITTEE (CNA/NNOC) Sacramento, CA, AFL-CIO, Fresno, CA
+  * STATIONARY ENGINEERS, LOCAL UNION 39
+  * INTERNATIONAL UNION OF OPERATING ENGINEERS, AFL-CIO, Sacramento, CA
+
 ```{r}
 df_nlrb <- bind_rows(
   read_csv(here::here("data/nlrb_cases_clovis_cmc.csv")),
