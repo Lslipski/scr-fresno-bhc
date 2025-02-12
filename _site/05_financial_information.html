@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -261,8 +280,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#form-990-finances" id="toc-form-990-finances" class="nav-link active" data-scroll-target="#form-990-finances">Form 990 Finances</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -288,13 +313,22 @@ ul.task-list li input[type="checkbox"] {
 
 <p>5.1 Statement of Revenue 5.2 Statement of Function Expenses 5.3 Balance Sheet 5.4 Reconciliation of Net Assets 5.5 Audited Financial Statement (if available) 5.6 Key Financial Ratios</p>
 <p>Form 990 contains basic financial information. In Part VII, the Statement of Revenue, Part IX, Statement of Functional Expenses, Part X, Balance Sheet, Part XI Reconciliation of Net Assets, and Part XII, Financial Statements and Reporting. Some states require that nonprofits also include an audited financial statement as part of their 990, which is a more comprehensive financial document.</p>
+<section id="form-990-finances" class="level2">
+<h2 class="anchored" data-anchor-id="form-990-finances">Form 990 Finances</h2>
+<p>From the latest available form 990 (in 2023) <span class="citation" data-cites="viewable_990">[<a href="#ref-viewable_990" role="doc-biblioref">1</a>]</span> :</p>
 <p>Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.</p>
 <p>In addition to reviewing the financial statements, financial analysts utilize financial ratios. This allows them to track the performance of a nonprofit over time and to compare it to others operating in the same sector or industry. If you have no experience reviewing nonprofit financials, go to our Nonprofit Accounting for Union Researchers.</p>
 <p>A number of organizations rate nonprofits using basic financial information. This includes CharityWatch, Charity Navigator and the Better Business Bureau’s Wise Giving Alliance.</p>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-viewable_990" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">(2025) <a href="https://app.candid.org/profile/8399618">Community medical centers, inc. Form 990</a></div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

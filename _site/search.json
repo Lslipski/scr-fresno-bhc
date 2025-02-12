@@ -151,7 +151,7 @@
     "href": "03_facilities.html#total-property-values",
     "title": "3. Facilities",
     "section": "Total Property Values",
-    "text": "Total Property Values\nTaken from Schedule D Part VI of the 2023 Form 990:\n\n\n\nfacilities_cost",
+    "text": "Total Property Values\nTaken from Schedule D Part VI of the 2023 Form 990 [3]:\n\n\n\nfacilities_cost",
     "crumbs": [
       "3. Facilities"
     ]
@@ -161,7 +161,7 @@
     "href": "05_financial_information.html",
     "title": "5. Financial Information",
     "section": "",
-    "text": "5.1 Statement of Revenue 5.2 Statement of Function Expenses 5.3 Balance Sheet 5.4 Reconciliation of Net Assets 5.5 Audited Financial Statement (if available) 5.6 Key Financial Ratios\nForm 990 contains basic financial information. In Part VII, the Statement of Revenue, Part IX, Statement of Functional Expenses, Part X, Balance Sheet, Part XI Reconciliation of Net Assets, and Part XII, Financial Statements and Reporting. Some states require that nonprofits also include an audited financial statement as part of their 990, which is a more comprehensive financial document.\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nIn addition to reviewing the financial statements, financial analysts utilize financial ratios. This allows them to track the performance of a nonprofit over time and to compare it to others operating in the same sector or industry. If you have no experience reviewing nonprofit financials, go to our Nonprofit Accounting for Union Researchers.\nA number of organizations rate nonprofits using basic financial information. This includes CharityWatch, Charity Navigator and the Better Business Bureau’s Wise Giving Alliance.",
+    "text": "5.1 Statement of Revenue 5.2 Statement of Function Expenses 5.3 Balance Sheet 5.4 Reconciliation of Net Assets 5.5 Audited Financial Statement (if available) 5.6 Key Financial Ratios\nForm 990 contains basic financial information. In Part VII, the Statement of Revenue, Part IX, Statement of Functional Expenses, Part X, Balance Sheet, Part XI Reconciliation of Net Assets, and Part XII, Financial Statements and Reporting. Some states require that nonprofits also include an audited financial statement as part of their 990, which is a more comprehensive financial document.",
     "crumbs": [
       "5. Financial Information"
     ]
@@ -364,6 +364,16 @@
     "text": "NLRB Activity\nNote that I’ve removed the Participants field from the below table because it is too long. If complete participant information is desired, the details of any case can be found using the Case Number in the NLRB Case Search [2].\nHowever, unions mentioned include:\n\nSEIU UNITED HEALTHCARE WORKERS - WEST, Stockton, CA\nSEIU UNITED HEALTHCARE WORKERS - WEST, Fresno, CA\nSERVICE EMPLOYEES INTERNATIONAL UNION, Washington, DC\nCALIFORNIA NURSES ASSOCIATION NATIONAL NURSES ORGANIZING COMMITTEE (CNA/NNOC) Sacramento, CA, AFL-CIO, Fresno, CA\nSTATIONARY ENGINEERS, LOCAL UNION 39\nINTERNATIONAL UNION OF OPERATING ENGINEERS, AFL-CIO, Sacramento, CA",
     "crumbs": [
       "4. Workforce"
+    ]
+  },
+  {
+    "objectID": "05_financial_information.html#form-990-finances",
+    "href": "05_financial_information.html#form-990-finances",
+    "title": "5. Financial Information",
+    "section": "Form 990 Finances",
+    "text": "Form 990 Finances\nFrom the latest available form 990 (in 2023) [1] :\nCandid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.\nIn addition to reviewing the financial statements, financial analysts utilize financial ratios. This allows them to track the performance of a nonprofit over time and to compare it to others operating in the same sector or industry. If you have no experience reviewing nonprofit financials, go to our Nonprofit Accounting for Union Researchers.\nA number of organizations rate nonprofits using basic financial information. This includes CharityWatch, Charity Navigator and the Better Business Bureau’s Wise Giving Alliance.",
+    "crumbs": [
+      "5. Financial Information"
     ]
   }
 ]
