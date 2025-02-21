@@ -80,23 +80,23 @@ key employees",
           "Part IX: Statement of Functional Expenses",
           "Other Fees (non-employee) ",
           10790847,
-          "11c",
+          "11c"
           
           
           ##############################PART X##############################
-          
-          "Part X: Balance Sheet",
-          1,
+          # 
+          # "Part X: Balance Sheet",
+          # 1,
           
           ##############################PART XI##############################
-          
-          "Part XI: Reconciliation of Net Assets",
-          1,
+          # 
+          # "Part XI: Reconciliation of Net Assets",
+          # 1,
           
           ##############################PART XII##############################
           
-          "Part XII: Financial Statements and Reporting",
-          1
+          # "Part XII: Financial Statements and Reporting",
+          # 1
           
   )
   

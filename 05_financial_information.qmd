@@ -5,27 +5,43 @@ format: html
 
 ```{r}
 library(dplyr)
+library(DT)
 source(here::here('functions/load_functions.R'))
 load_functions()
 ```
 
 
-5.1 Statement of Revenue
-5.2 Statement of Function Expenses
-5.3 Balance Sheet
-5.4 Reconciliation of Net Assets
-5.5 Audited Financial Statement (if available)
-5.6 Key Financial Ratios
+## Form 990 Finances
+
+### Key Fields
+
+- 5.1 Statement of Revenue
+
+- 5.2 Statement of Function Expenses
+
+- 5.3 Balance Sheet
+
+- 5.4 Reconciliation of Net Assets
+
+- 5.5 Audited Financial Statement (if available)
+
+- 5.6 Key Financial Ratios
 
 Form 990 contains basic financial information. In Part VII, the Statement of Revenue, Part IX, Statement of Functional Expenses, Part X, Balance Sheet, Part XI Reconciliation of Net Assets, and Part XII, Financial Statements and Reporting.  Some states require that nonprofits also include an audited financial statement as part of their 990, which is a more comprehensive financial document.
 
-## Form 990 Finances
 
+### 
 From the latest available form 990 (in 2023) @viewable_990 :
 ```{r}
-#df_990_fin <- load_990_2023()
+#| output: true
+load_990_2023() %>% 
+  table_standard() %>% 
+  formatCurrency("value")
 ```
 
+
+
+## Potential Data Sources
 
 Candid, the National Center for Charitable Statistics (NCCS), and the Economic Research Institute all provide access to Form 990 as well as summary information on nonprofit organizations. Also check the New York Charities Bureau.
 
